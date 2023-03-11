@@ -47,7 +47,9 @@ public class OrdenTrabajo {
 
     private  String tipoTarjeta;
 
-
+    @ManyToOne
+    @JoinColumn(name = "vehiculo_id")
+    private Vehiculo vehiculo;
 
     @OneToMany(mappedBy = "ordenTrabajo")
     private List<ManoDeObra> manoDeObra;

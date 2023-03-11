@@ -29,10 +29,7 @@ public class Cliente extends Persona{
    @NotNull(message = "El email es obligatorio")
     private String correoElectronico;
 
-   @ManyToMany
-   @JoinTable( name = "cliente_vehiculo",
-           joinColumns = @JoinColumn(name = "cliente_id"),
-           inverseJoinColumns = @JoinColumn(name = "vehiculo_id"))
+   @OneToMany(mappedBy = "clientes")
     private List<Vehiculo>vehiculos=new ArrayList<>();
 
 
