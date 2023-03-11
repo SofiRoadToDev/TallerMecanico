@@ -3,7 +3,6 @@ package com.besisoft.proyectofinal.entity;
 import lombok.*;
 
 import javax.persistence.*;
-import java.util.Date;
 
 @Entity
 @Getter
@@ -11,20 +10,18 @@ import java.util.Date;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class ManoDeObra {
+@Table(name = "detalle_ordenes_trabajo")
+public class DetalleOrdenTrabajo {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Temporal(TemporalType.TIME)
-    private Date duracionHs;
-
-    @ManyToOne
-    @JoinColumn(name = "mecanico_id")
-    private Mecanico mecanico;
-
-
     @ManyToOne
     @JoinColumn(name = "orden_trabajo_id")
     private OrdenTrabajo ordenTrabajo;
+
+    @ManyToOne
+    @JoinColumn(name = "repuesto_id")
+    private Repuesto repuesto;
 }

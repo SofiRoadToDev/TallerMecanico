@@ -5,6 +5,10 @@ import org.hibernate.validator.constraints.Length;
 
 import javax.persistence.*;
 import javax.validation.constraints.Email;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
+import java.util.ArrayList;
+import java.util.List;
 
 @Getter
 @Setter
@@ -22,7 +26,14 @@ public class Cliente extends Persona{
 
 
    @Email(message = "Ingrese el email de manera correcta")
+   @NotNull(message = "El email es obligatorio")
     private String correoElectronico;
+
+   @ManyToMany
+   @JoinTable( name = "cliente_vehiculo",
+           joinColumns = @JoinColumn(name = "cliente_id"),
+           inverseJoinColumns = @JoinColumn(name = "vehiculo_id"))
+    private List<Vehiculo>vehiculos=new ArrayList<>();
 
 
 }

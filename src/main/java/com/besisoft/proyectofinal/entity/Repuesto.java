@@ -5,6 +5,8 @@ import lombok.*;
 import javax.persistence.*;
 import javax.validation.constraints.Digits;
 import java.math.BigDecimal;
+import java.util.ArrayList;
+import java.util.List;
 
 @Getter
 @Setter
@@ -29,6 +31,10 @@ public class Repuesto {
     //numeric(19,2)
     @Digits(integer = 17,fraction = 2)
     private BigDecimal valor;
+
+
+    @OneToMany(mappedBy = "repuesto")
+    private List<DetalleOrdenTrabajo>detalleOrdenTrabajos=new ArrayList<>();
 
 
 }

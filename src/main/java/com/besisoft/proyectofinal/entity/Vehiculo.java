@@ -5,6 +5,8 @@ import lombok.Data;
 import org.hibernate.validator.constraints.Length;
 
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Data
@@ -24,4 +26,7 @@ public class Vehiculo {
     private  String modelo;
 
     private  String patente;
+
+    @ManyToMany(mappedBy = "vehiculos")
+    private List<Cliente>clientes=new ArrayList<>();
 }

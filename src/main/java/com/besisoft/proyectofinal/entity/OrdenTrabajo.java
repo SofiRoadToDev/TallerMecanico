@@ -6,7 +6,9 @@ import javax.persistence.*;
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.validation.constraints.Digits;
 import java.math.BigDecimal;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 @Entity
 @Getter
@@ -44,6 +46,15 @@ public class OrdenTrabajo {
     private String nivelCombustible;
 
     private  String tipoTarjeta;
+
+
+    private List<Repuesto>repuestos=new ArrayList<>();
+
+    @OneToMany(mappedBy = "ordenTrabajo")
+    private ManoDeObra manoDeObra;
+
+    @OneToMany(mappedBy = "ordenTrabajo")
+    private List<DetalleOrdenTrabajo> detalleOrdenesTrabajo;
 
 
 }

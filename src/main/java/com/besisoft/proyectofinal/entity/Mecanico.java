@@ -3,6 +3,7 @@ package com.besisoft.proyectofinal.entity;
 import lombok.*;
 
 import javax.persistence.Entity;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 @Entity
@@ -17,4 +18,8 @@ public class Mecanico extends Persona{
     private Character activo;
 
     private String especialidad;
+    @OneToMany(mappedBy = "mecanico")
+    private  ManoDeObra manoDeObra;
+
+
 }
