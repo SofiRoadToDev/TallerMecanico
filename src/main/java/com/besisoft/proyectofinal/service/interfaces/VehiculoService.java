@@ -1,4 +1,4 @@
-package com.besisoft.proyectofinal.service;
+package com.besisoft.proyectofinal.service.interfaces;
 
 import com.besisoft.proyectofinal.entity.Vehiculo;
 import com.besisoft.proyectofinal.exceptions.VehiculoNotFoundException;
