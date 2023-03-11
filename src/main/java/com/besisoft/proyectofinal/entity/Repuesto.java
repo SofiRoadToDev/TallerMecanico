@@ -19,6 +19,7 @@ public class Repuesto {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "repuesto_id")
     private Long id;
 
 

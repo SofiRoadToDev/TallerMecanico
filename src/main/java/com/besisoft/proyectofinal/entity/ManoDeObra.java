@@ -23,7 +23,7 @@ public class ManoDeObra {
     @JoinColumn(name = "mecanico_id")
     private Mecanico mecanico;
 
-
+    private String detalle;
     @ManyToOne
     @JoinColumn(name = "orden_trabajo_id")
     private OrdenTrabajo ordenTrabajo;

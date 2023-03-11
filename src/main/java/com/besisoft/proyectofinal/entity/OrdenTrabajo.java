@@ -48,13 +48,18 @@ public class OrdenTrabajo {
     private  String tipoTarjeta;
 
 
-    private List<Repuesto>repuestos=new ArrayList<>();
 
     @OneToMany(mappedBy = "ordenTrabajo")
-    private ManoDeObra manoDeObra;
+    private List<ManoDeObra> manoDeObra;
 
     @OneToMany(mappedBy = "ordenTrabajo")
     private List<DetalleOrdenTrabajo> detalleOrdenesTrabajo;
+
+    @ManyToOne
+    private Empleado recepcionista;
+
+    @ManyToOne
+    private Empleado administrativo;
 
 
 }

@@ -3,6 +3,8 @@ package com.besisoft.proyectofinal.entity;
 import lombok.*;
 
 import javax.persistence.*;
+import javax.validation.constraints.Digits;
+import java.math.BigDecimal;
 
 @Entity
 @Getter
@@ -24,4 +26,9 @@ public class DetalleOrdenTrabajo {
     @ManyToOne
     @JoinColumn(name = "repuesto_id")
     private Repuesto repuesto;
+
+    private Integer cantidad;
+
+    @Digits(integer = 17,fraction = 2)
+    private BigDecimal valorTotal;
 }

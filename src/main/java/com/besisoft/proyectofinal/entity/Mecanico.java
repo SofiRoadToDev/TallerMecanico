@@ -5,6 +5,7 @@ import lombok.*;
 import javax.persistence.Entity;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
+import java.util.List;
 
 @Entity
 @Getter
@@ -19,7 +20,7 @@ public class Mecanico extends Persona{
 
     private String especialidad;
     @OneToMany(mappedBy = "mecanico")
-    private  ManoDeObra manoDeObra;
+    private List<ManoDeObra> manoDeObra;
 
 
 }
