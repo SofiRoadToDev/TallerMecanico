@@ -1,9 +1,12 @@
 package com.besisoft.proyectofinal.entity;
 
+import lombok.Data;
+
 import javax.persistence.Column;
 import javax.persistence.Embeddable;
 
 @Embeddable
+@Data
 public class Domicilio {
 
     private String calle;

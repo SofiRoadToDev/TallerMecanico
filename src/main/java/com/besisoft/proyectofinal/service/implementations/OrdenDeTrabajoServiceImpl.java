@@ -13,7 +13,10 @@ import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
+import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
+
 @Service
 @AllArgsConstructor
 public class OrdenDeTrabajoServiceImpl implements OrdenDeTrabajoService {
@@ -31,9 +34,24 @@ public class OrdenDeTrabajoServiceImpl implements OrdenDeTrabajoService {
     @Override
     @Transactional
     public OrdenTrabajo crearOrdenDeTrabajo(OrdenTrabajo ordenTrabajo) {
+        OrdenTrabajo ordenTrabajoFinal=new OrdenTrabajo();
         Optional<Vehiculo>vehiculoStored=this.vehiculoRepository.findByPatente(ordenTrabajo.getVehiculo().getPatente());
+       /* if(vehiculoStored.isPresent()){
+            List<Cliente> clientesDuenios=vehiculoStored.get().getClientes();
+            List<String>emailsClientes=clientesDuenios.stream().map(
+                    c->c.getCorreoElectronico()
+            ).collect(Collectors.toList());
 
-        return this.ordenTrabajoRepository.save(ordenTrabajo);
+        }
+        Optional<Cliente>cliente=this.clienteRepository.findByCorreoElectonico("String email");
+        if(vehiculoStored.isPresent()){
+            if(cliente.isPresent()){
+                   ordenTrabajoFinal=ordenTrabajo;
+            }else{
+                clienteRepository.save(vehiculoStored.get().getClientes().get());
+            }
+        }*/
+        return ordenTrabajoFinal;
     }
 
     @Override
