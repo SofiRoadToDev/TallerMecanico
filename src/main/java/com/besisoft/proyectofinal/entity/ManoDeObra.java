@@ -19,7 +19,7 @@ public class ManoDeObra {
     @Temporal(TemporalType.TIME)
     private Date duracionHs;
 
-    @ManyToOne
+    @ManyToOne(cascade = CascadeType.MERGE)
     @JoinColumn(name = "mecanico_id")
     private Mecanico mecanico;
 
