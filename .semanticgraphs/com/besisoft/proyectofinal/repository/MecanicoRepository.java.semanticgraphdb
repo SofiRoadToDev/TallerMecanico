@@ -1,0 +1,17 @@
+
+lE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\repository\MecanicoRepository.java·
+8com.besisoft.proyectofinal.repository.MecanicoRepositoryTRAITv
+lE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\repository\MecanicoRepository.java (#"0
+package%com.besisoft.proyectofinal.repository"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"Á
+declarationString«<mark class="modifier">public </mark><mark class="modifier">interface </mark>MecanicoRepository<mark class="modifier"> extends </mark>RxJava2CrudRepository<Mecanico, Long>"
+accesspublic*MecanicoRepository2Ä
+Borg.springframework.data.repository.reactive.RxJava2CrudRepositoryEXTENDv
+lE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\repository\MecanicoRepository.java, (A2º
+*com.besisoft.proyectofinal.entity.MecanicoEXTEND_TYPE_ARGUMENTv
+lE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\repository\MecanicoRepository.javaB (J2ž
+java.lang.LongEXTEND_TYPE_ARGUMENTv
+lE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\repository\MecanicoRepository.javaK (O

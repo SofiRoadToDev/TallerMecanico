@@ -1,0 +1,86 @@
+
+zE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\VehiculoServiceImpl.java‡
+
+Fcom.besisoft.proyectofinal.service.implementations.VehiculoServiceImplCLASSÑ
+zE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\VehiculoServiceImpl.java ( "=
+package2com.besisoft.proyectofinal.service.implementations"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"ì
+declarationString˝<mark class="annotation">@Service</mark> <br><mark class="annotation">@AllArgsConstructor</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>VehiculoServiceImpl<mark class="modifier"><br>implements </mark>VehiculoService"
+accesspublic*VehiculoServiceImpl2ˇ
+icom.besisoft.proyectofinal.service.implementations.VehiculoServiceImpl.buscarPorPatente(java.lang.String)DECLARATIONÑ
+zE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\VehiculoServiceImpl.java (.2˚
+ecom.besisoft.proyectofinal.service.implementations.VehiculoServiceImpl?vehiculoRepository@15.31:15.49DECLARATIONÑ
+zE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\VehiculoServiceImpl.java (12Œ
+=com.besisoft.proyectofinal.service.interfaces.VehiculoServiceEXTENDÑ
+zE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\VehiculoServiceImpl.java, (;∏
+icom.besisoft.proyectofinal.service.implementations.VehiculoServiceImpl.buscarPorPatente(java.lang.String)METHODÑ
+zE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\VehiculoServiceImpl.java (."
+isFinalfalse"õ
+declarationStringÖ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>Optional&lt;Vehiculo&gt; <mark class="method">buscarPorPatente</mark>(String patente)<mark class="modifier"> <mark class="modifier">throws</mark> </mark>VehiculoNotFoundException"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeOptional<Vehiculo>*buscarPorPatente2Á
+Xcom.besisoft.proyectofinal.repository.VehiculoRepository.findByPatente(java.lang.String)CALLÑ
+zE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\VehiculoServiceImpl.java; (H2≠
+java.util.Optional.isPresent()CALLÑ
+zE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\VehiculoServiceImpl.java (2Õ
+>java.lang.String.format(java.lang.String, java.lang.Object...)CALLÑ
+zE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\VehiculoServiceImpl.java8 (>2ê
+Äcom.besisoft.proyectofinal.exceptions.VehiculoNotFoundException.VehiculoNotFoundException(java.lang.String, java.lang.Throwable)CALLÑ
+zE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\VehiculoServiceImpl.java (02Ä
+qcom.besisoft.proyectofinal.service.implementations.VehiculoServiceImpl.buscarPorPatente(java.lang.String)!patenteCALLÑ
+zE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\VehiculoServiceImpl.javaI (P2ç
+~com.besisoft.proyectofinal.service.implementations.VehiculoServiceImpl.buscarPorPatente(java.lang.String)?vehiculo@18.26:18.34CALLÑ
+zE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\VehiculoServiceImpl.java (2ç
+~com.besisoft.proyectofinal.service.implementations.VehiculoServiceImpl.buscarPorPatente(java.lang.String)?vehiculo@18.26:18.34CALLÑ
+zE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\VehiculoServiceImpl.java (2Ä
+qcom.besisoft.proyectofinal.service.implementations.VehiculoServiceImpl.buscarPorPatente(java.lang.String)!patenteCALLÑ
+zE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\VehiculoServiceImpl.javab (i2Ù
+ecom.besisoft.proyectofinal.service.implementations.VehiculoServiceImpl?vehiculoRepository@15.31:15.49CALLÑ
+zE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\VehiculoServiceImpl.java( (:2Û
+`com.besisoft.proyectofinal.service.interfaces.VehiculoService.buscarPorPatente(java.lang.String)OVERRIDEÑ
+zE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\VehiculoServiceImpl.java (.2Ö
+qcom.besisoft.proyectofinal.service.implementations.VehiculoServiceImpl.buscarPorPatente(java.lang.String)!patente	PARAMETERÑ
+zE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\VehiculoServiceImpl.java6 (=2î
+~com.besisoft.proyectofinal.service.implementations.VehiculoServiceImpl.buscarPorPatente(java.lang.String)?vehiculo@18.26:18.34DECLARATIONÑ
+zE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\VehiculoServiceImpl.java ("2®
+java.util.OptionalRETURN_TYPEÑ
+zE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\VehiculoServiceImpl.java (2…
+*com.besisoft.proyectofinal.entity.VehiculoRETURN_TYPE_ARGUMENTÑ
+zE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\VehiculoServiceImpl.java (Ÿ
+~com.besisoft.proyectofinal.service.implementations.VehiculoServiceImpl.buscarPorPatente(java.lang.String)?vehiculo@18.26:18.34VARIABLEÑ
+zE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\VehiculoServiceImpl.java (""
+typeOptional<Vehiculo>"
+isFinalfalse"¿
+declarationString™<mark class="modifier"> </mark>Optional<Vehiculo> <mark class="class-field">vehiculo</mark> = <mark class="modifier">this</mark>.vehiculoRepository.findByPatente(patente)*vehiculo2°
+java.util.OptionalTYPEÑ
+zE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\VehiculoServiceImpl.java (2¬
+*com.besisoft.proyectofinal.entity.VehiculoTYPE_ARGUMENTÑ
+zE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\VehiculoServiceImpl.java (2Á
+Xcom.besisoft.proyectofinal.repository.VehiculoRepository.findByPatente(java.lang.String)CALLÑ
+zE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\VehiculoServiceImpl.java; (H2Ä
+qcom.besisoft.proyectofinal.service.implementations.VehiculoServiceImpl.buscarPorPatente(java.lang.String)!patenteCALLÑ
+zE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\VehiculoServiceImpl.javaI (P2Ù
+ecom.besisoft.proyectofinal.service.implementations.VehiculoServiceImpl?vehiculoRepository@15.31:15.49CALLÑ
+zE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\VehiculoServiceImpl.java( (:˜
+qcom.besisoft.proyectofinal.service.implementations.VehiculoServiceImpl.buscarPorPatente(java.lang.String)!patente	PARAMETERÑ
+zE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\VehiculoServiceImpl.java6 (="
+typeString"
+isFinalfalse"#
+declarationStringString patente*patente2ü
+java.lang.StringTYPEÑ
+zE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\VehiculoServiceImpl.java/ (5Æ
+ecom.besisoft.proyectofinal.service.implementations.VehiculoServiceImpl?vehiculoRepository@15.31:15.49VARIABLEÑ
+zE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\VehiculoServiceImpl.java (1"
+isFinalfalse"
+typeVehiculoRepository"Å
+declarationStringl<mark class="modifier">private </mark>VehiculoRepository <mark class="class-field">vehiculoRepository</mark>"
+isStaticfalse"
+accessprivate*vehiculoRepository2«
+8com.besisoft.proyectofinal.repository.VehiculoRepositoryTYPEÑ
+zE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\VehiculoServiceImpl.java (

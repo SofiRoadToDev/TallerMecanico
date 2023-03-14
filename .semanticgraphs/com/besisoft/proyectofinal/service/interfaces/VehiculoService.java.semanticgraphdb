@@ -1,0 +1,35 @@
+
+qE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\VehiculoService.java¿
+=com.besisoft.proyectofinal.service.interfaces.VehiculoServiceTRAIT{
+qE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\VehiculoService.java ( "8
+package-com.besisoft.proyectofinal.service.interfaces"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"q
+declarationString\<mark class="modifier">public </mark><mark class="modifier">interface </mark>VehiculoService"
+accesspublic*VehiculoService2ì
+`com.besisoft.proyectofinal.service.interfaces.VehiculoService.buscarPorPatente(java.lang.String)DECLARATION{
+qE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\VehiculoService.java	 	(&¬	
+`com.besisoft.proyectofinal.service.interfaces.VehiculoService.buscarPorPatente(java.lang.String)METHOD{
+qE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\VehiculoService.java	 	(&"
+isFinalfalse"ç
+declarationStringÑ<mark class="modifier"> </mark>Optional&lt;Vehiculo&gt; <mark class="method">buscarPorPatente</mark>(String patente)<mark class="modifier"> <mark class="modifier">throws</mark> </mark>VehiculoNotFoundException"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeOptional<Vehiculo>*buscarPorPatente2ò
+hcom.besisoft.proyectofinal.service.interfaces.VehiculoService.buscarPorPatente(java.lang.String)!patente	PARAMETER{
+qE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\VehiculoService.java	. 	(52ž
+java.util.OptionalRETURN_TYPE{
+qE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\VehiculoService.java	 	(2¿
+*com.besisoft.proyectofinal.entity.VehiculoRETURN_TYPE_ARGUMENT{
+qE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\VehiculoService.java	 	(Ú
+hcom.besisoft.proyectofinal.service.interfaces.VehiculoService.buscarPorPatente(java.lang.String)!patente	PARAMETER{
+qE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\VehiculoService.java	. 	(5"
+typeString"
+isFinalfalse"#
+declarationStringString patente*patente2•
+java.lang.StringTYPE{
+qE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\VehiculoService.java	' 	(-

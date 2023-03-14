@@ -1,0 +1,17 @@
+
+lE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\repository\RepuestoRepository.java 
+8com.besisoft.proyectofinal.repository.RepuestoRepositoryTRAITv
+lE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\repository\RepuestoRepository.java (#"0
+package%com.besisoft.proyectofinal.repository"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"º
+declarationString¤<mark class="modifier">public </mark><mark class="modifier">interface </mark>RepuestoRepository<mark class="modifier"> extends </mark>CrudRepository<Repuesto, Long>"
+accesspublic*RepuestoRepository2´
+2org.springframework.data.repository.CrudRepositoryEXTENDv
+lE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\repository\RepuestoRepository.java, (:2º
+*com.besisoft.proyectofinal.entity.RepuestoEXTEND_TYPE_ARGUMENTv
+lE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\repository\RepuestoRepository.java; (C2ž
+java.lang.LongEXTEND_TYPE_ARGUMENTv
+lE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\repository\RepuestoRepository.javaD (H

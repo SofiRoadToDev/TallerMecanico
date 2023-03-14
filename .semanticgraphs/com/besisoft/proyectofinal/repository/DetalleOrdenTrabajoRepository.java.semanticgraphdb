@@ -1,0 +1,17 @@
+
+wE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\repository\DetalleOrdenTrabajoRepository.javaá	
+Ccom.besisoft.proyectofinal.repository.DetalleOrdenTrabajoRepositoryTRAITÅ
+wE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\repository\DetalleOrdenTrabajoRepository.java (."0
+package%com.besisoft.proyectofinal.repository"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"–
+declarationString∫<mark class="modifier">public </mark><mark class="modifier">interface </mark>DetalleOrdenTrabajoRepository<mark class="modifier"> extends </mark>CrudRepository<DetalleOrdenTrabajo, Long>"
+accesspublic*DetalleOrdenTrabajoRepository2¿
+2org.springframework.data.repository.CrudRepositoryEXTENDÅ
+wE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\repository\DetalleOrdenTrabajoRepository.java7 (E2—
+5com.besisoft.proyectofinal.entity.DetalleOrdenTrabajoEXTEND_TYPE_ARGUMENTÅ
+wE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\repository\DetalleOrdenTrabajoRepository.javaF (Y2™
+java.lang.LongEXTEND_TYPE_ARGUMENTÅ
+wE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\repository\DetalleOrdenTrabajoRepository.javaZ (^

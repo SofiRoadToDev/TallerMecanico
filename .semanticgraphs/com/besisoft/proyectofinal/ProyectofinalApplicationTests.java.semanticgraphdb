@@ -1,0 +1,24 @@
+
+lE:\Besysoft final\TallerMecanico\src\test\java\com\besisoft\proyectofinal\ProyectofinalApplicationTests.javaÕ
+8com.besisoft.proyectofinal.ProyectofinalApplicationTestsCLASSv
+lE:\Besysoft final\TallerMecanico\src\test\java\com\besisoft\proyectofinal\ProyectofinalApplicationTests.java (#"%
+packagecom.besisoft.proyectofinal"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"ª
+declarationString”<mark class="annotation">@SpringBootTest</mark> <br><mark class="modifier"> </mark><mark class="modifier">class </mark>ProyectofinalApplicationTests"
+accesspackage_private*ProyectofinalApplicationTests2Î
+Gcom.besisoft.proyectofinal.ProyectofinalApplicationTests.contextLoads()DECLARATIONv
+lE:\Besysoft final\TallerMecanico\src\test\java\com\besisoft\proyectofinal\ProyectofinalApplicationTests.java	 	(÷
+Gcom.besisoft.proyectofinal.ProyectofinalApplicationTests.contextLoads()METHODv
+lE:\Besysoft final\TallerMecanico\src\test\java\com\besisoft\proyectofinal\ProyectofinalApplicationTests.java	 	("
+isFinalfalse"¬
+declarationString–<mark class="annotation">@Test</mark> <br><mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">contextLoads</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*contextLoads2‹
+voidRETURN_TYPEv
+lE:\Besysoft final\TallerMecanico\src\test\java\com\besisoft\proyectofinal\ProyectofinalApplicationTests.java	 	(

@@ -1,0 +1,266 @@
+
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.javaü
+Lcom.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImplCLASSã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java (&"=
+package2com.besisoft.proyectofinal.service.implementations"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"ü
+declarationStringâ<mark class="annotation">@Service</mark> <br><mark class="annotation">@AllArgsConstructor</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>OrdenDeTrabajoServiceImpl<mark class="modifier"><br>implements </mark>OrdenDeTrabajoService"
+accesspublic*OrdenDeTrabajoServiceImpl2Ö
+hcom.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl.buscarPorId(java.lang.Long)DECLARATIONã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java" (-2Æ
+êcom.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl.crearOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)DECLARATIONã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java% %(+2≥
+ïcom.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl.actualizarOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)DECLARATIONã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java> >(02å
+ocom.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl?ordenTrabajoRepository@24.35:24.57DECLARATIONã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java# (92á
+jcom.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl?clienteRepository@26.30:26.47DECLARATIONã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java (/2à
+kcom.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl?vehiculoRepository@28.31:28.49DECLARATIONã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java (12€
+Ccom.besisoft.proyectofinal.service.interfaces.OrdenDeTrabajoServiceEXTENDã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java2 (GÃ
+hcom.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl.buscarPorId(java.lang.Long)METHODã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java" (-"
+isFinalfalse"∂
+declarationString†<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>Optional&lt;OrdenTrabajo&gt; <mark class="method">buscarPorId</mark>(Long id)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeOptional<OrdenTrabajo>*buscarPorId2Å
+kcom.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl.buscarPorId(java.lang.Long)!idCALLã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java4 (62Ö
+ocom.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl?ordenTrabajoRepository@24.35:24.57CALLã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java (*2˘
+_com.besisoft.proyectofinal.service.interfaces.OrdenDeTrabajoService.buscarPorId(java.lang.Long)OVERRIDEã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java" (-2Ü
+kcom.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl.buscarPorId(java.lang.Long)!id	PARAMETERã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java3 (52Ø
+java.util.OptionalRETURN_TYPEã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java (2‘
+.com.besisoft.proyectofinal.entity.OrdenTrabajoRETURN_TYPE_ARGUMENTã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java ( Ô
+kcom.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl.buscarPorId(java.lang.Long)!id	PARAMETERã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java3 (5"
+typeLong"
+isFinalfalse"
+declarationStringLong id*id2§
+java.lang.LongTYPEã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java. (2ÿY
+êcom.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl.crearOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)METHODã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java% %(+"
+isFinalfalse" 
+declarationString¥ <br><mark class="annotation">@Transactional</mark> <br><mark class="modifier">public </mark>OrdenTrabajo <mark class="method">crearOrdenDeTrabajo</mark>(OrdenTrabajo ordenTrabajo)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeOrdenTrabajo*crearOrdenDeTrabajo2¥
+java.util.Optional.isPresent()CALLã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java) )(#2Æ
+java.util.Optional.get()CALLã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java*9 *(<2Ê
+Pjava.util.stream.Stream.map(java.util.function.Function<? super T, ? extends R>)CALLã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java+@ +(C2≥
+java.util.Collection.stream()CALLã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java+7 +(=2∫
+$java.util.stream.Collectors.toList()CALLã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java-! -('2ø
+)java.util.List.contains(java.lang.Object)CALLã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java/ /(&2”
+=com.besisoft.proyectofinal.entity.OrdenTrabajo.OrdenTrabajo()CALLã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java'+ '(72¥
+ùcom.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl.crearOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)!ordenTrabajoCALLã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java(O (([2¬
+´com.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl.crearOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)?vehiculoStored@40.26:40.40CALLã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java) )(2¬
+´com.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl.crearOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)?vehiculoStored@40.26:40.40CALLã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java** *(82√
+¨com.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl.crearOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)?clientesDuenios@42.26:42.41CALLã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java+' +(62µ
+ûcom.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl.crearOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)?c@44.20:44.21CALLã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java, ,(2¥
+ùcom.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl.crearOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)!ordenTrabajoCALLã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java.+ .(72¬
+´com.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl.crearOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)?emailsClientes@43.24:43.38CALLã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java/ /(2À
+¥com.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl.crearOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)?emailDelClientequeLlega@46.19:46.42CALLã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java/' /(>2≈
+Æcom.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl.crearOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)?ordenTrabajoFinal@39.21:39.38CALLã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java0 0(!2¥
+ùcom.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl.crearOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)!ordenTrabajoCALLã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java02 0(>2≈
+Æcom.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl.crearOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)?ordenTrabajoFinal@39.21:39.38CALLã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java1 1(!2¥
+ùcom.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl.crearOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)!ordenTrabajoCALLã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java13 1(?2≈
+Æcom.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl.crearOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)?ordenTrabajoFinal@39.21:39.38CALLã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java2 2(!2¥
+ùcom.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl.crearOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)!ordenTrabajoCALLã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java21 2(=2≈
+Æcom.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl.crearOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)?ordenTrabajoFinal@39.21:39.38CALLã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java3 3(!2¥
+ùcom.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl.crearOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)!ordenTrabajoCALLã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java36 3(B2≈
+Æcom.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl.crearOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)?ordenTrabajoFinal@39.21:39.38CALLã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java4 4(!2≈
+Æcom.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl.crearOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)?ordenTrabajoFinal@39.21:39.38CALLã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java5 5(!2¥
+ùcom.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl.crearOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)!ordenTrabajoCALLã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java56 5(B2≈
+Æcom.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl.crearOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)?ordenTrabajoFinal@39.21:39.38CALLã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java9 9( 2Å
+kcom.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl?vehiculoRepository@28.31:28.49CALLã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java(. ((@2¢
+ácom.besisoft.proyectofinal.service.interfaces.OrdenDeTrabajoService.crearOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)OVERRIDEã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java% %(+2π
+ùcom.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl.crearOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)!ordenTrabajo	PARAMETERã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java%9 %(E2Ã
+Æcom.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl.crearOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)?ordenTrabajoFinal@39.21:39.38DECLARATIONã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java' '(&2…
+´com.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl.crearOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)?vehiculoStored@40.26:40.40DECLARATIONã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java( (((2 
+¨com.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl.crearOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)?clientesDuenios@42.26:42.41DECLARATIONã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java* *()2…
+´com.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl.crearOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)?emailsClientes@43.24:43.38DECLARATIONã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java+ +(&2“
+¥com.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl.crearOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)?emailDelClientequeLlega@46.19:46.42DECLARATIONã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java. .(*2º
+ûcom.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl.crearOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)?c@44.20:44.21DECLARATIONã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java, ,(2À
+.com.besisoft.proyectofinal.entity.OrdenTrabajoRETURN_TYPEã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java% %(¨
+Æcom.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl.crearOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)?ordenTrabajoFinal@39.21:39.38VARIABLEã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java' '(&"
+typeOrdenTrabajo"
+isFinalfalse"à
+declarationStrings<mark class="modifier"> </mark>OrdenTrabajo <mark class="class-field">ordenTrabajoFinal</mark> = new OrdenTrabajo()*ordenTrabajoFinal2ƒ
+.com.besisoft.proyectofinal.entity.OrdenTrabajoTYPEã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java' '(2”
+=com.besisoft.proyectofinal.entity.OrdenTrabajo.OrdenTrabajo()CALLã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java'+ '(7ü
+´com.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl.crearOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)?vehiculoStored@40.26:40.40VARIABLEã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java( ((("
+typeOptional<Vehiculo>"
+isFinalfalse"Ê
+declarationString–<mark class="modifier"> </mark>Optional<Vehiculo> <mark class="class-field">vehiculoStored</mark> = <mark class="modifier">this</mark>.vehiculoRepository.findByPatente(ordenTrabajo.getVehiculo().getPatente())*vehiculoStored2®
+java.util.OptionalTYPEã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java( ((2…
+*com.besisoft.proyectofinal.entity.VehiculoTYPE_ARGUMENTã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java( ((2¥
+ùcom.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl.crearOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)!ordenTrabajoCALLã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java(O (([2Å
+kcom.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl?vehiculoRepository@28.31:28.49CALLã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java(. ((@Ñ
+¨com.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl.crearOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)?clientesDuenios@42.26:42.41VARIABLEã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java* *()"
+typeList<Cliente>"
+isFinalfalse"ò
+declarationStringÇ<mark class="modifier"> </mark>List<Cliente> <mark class="class-field">clientesDuenios</mark> = vehiculoStored.get().getClientes()*clientesDuenios2§
+java.util.ListTYPEã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java* *(2»
+)com.besisoft.proyectofinal.entity.ClienteTYPE_ARGUMENTã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java* *(2Æ
+java.util.Optional.get()CALLã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java*9 *(<2¬
+´com.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl.crearOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)?vehiculoStored@40.26:40.40CALLã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java** *(8Â
+´com.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl.crearOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)?emailsClientes@43.24:43.38VARIABLEã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java+ +(&"
+typeList<String>"
+isFinalfalse"Ã
+declarationString∂<mark class="modifier"> </mark>List<String> <mark class="class-field">emailsClientes</mark> = clientesDuenios.stream().map(c -> c.getCorreoElectronico()).collect(Collectors.toList())*emailsClientes2§
+java.util.ListTYPEã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java+ +(2Ø
+java.lang.StringTYPE_ARGUMENTã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java+ +(2‚
+Ljava.util.stream.Stream.collect(java.util.stream.Collector<? super T, A, R>)CALLã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java- -(2Ê
+Pjava.util.stream.Stream.map(java.util.function.Function<? super T, ? extends R>)CALLã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java+@ +(C2≥
+java.util.Collection.stream()CALLã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java+7 +(=2∫
+$java.util.stream.Collectors.toList()CALLã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java-! -('2√
+¨com.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl.crearOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)?clientesDuenios@42.26:42.41CALLã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java+' +(62µ
+ûcom.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl.crearOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)?c@44.20:44.21CALLã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java, ,(™
+¥com.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl.crearOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)?emailDelClientequeLlega@46.19:46.42VARIABLEã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java. .(*"
+typeString"
+isFinalfalse"Ω
+declarationStringß<mark class="modifier"> </mark>String <mark class="class-field">emailDelClientequeLlega</mark> = ordenTrabajo.getVehiculo().getClientes().get(0).getCorreoElectronico()*emailDelClientequeLlega2¶
+java.lang.StringTYPEã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java. .(2¥
+ùcom.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl.crearOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)!ordenTrabajoCALLã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java.+ .(7Ê
+ùcom.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl.crearOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)!ordenTrabajo	PARAMETERã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java%9 %(E"
+typeOrdenTrabajo"
+isFinalfalse".
+declarationStringOrdenTrabajo ordenTrabajo*ordenTrabajo2ƒ
+.com.besisoft.proyectofinal.entity.OrdenTrabajoTYPEã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java%, %(8˜
+ûcom.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl.crearOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)?c@44.20:44.21VARIABLEã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java, ,("
+type"
+isFinalfalse"
+declarationString c*c2TYPE˘
+ïcom.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl.actualizarOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)METHODã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java> >(0"
+isFinalfalse"œ
+declarationStringπ <br><mark class="annotation">@Transactional</mark> <br><mark class="modifier">public </mark>OrdenTrabajo <mark class="method">actualizarOrdenDeTrabajo</mark>(OrdenTrabajo ordenTrabajo)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeOrdenTrabajo*actualizarOrdenDeTrabajo2π
+¢com.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl.actualizarOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)!ordenTrabajoCALLã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java?0 ?(<2Ö
+ocom.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl?ordenTrabajoRepository@24.35:24.57CALLã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java? ?(*2ß
+åcom.besisoft.proyectofinal.service.interfaces.OrdenDeTrabajoService.actualizarOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)OVERRIDEã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java> >(02æ
+¢com.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl.actualizarOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)!ordenTrabajo	PARAMETERã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java>> >(J2À
+.com.besisoft.proyectofinal.entity.OrdenTrabajoRETURN_TYPEã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java> >(Î
+¢com.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl.actualizarOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)!ordenTrabajo	PARAMETERã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java>> >(J"
+typeOrdenTrabajo"
+isFinalfalse".
+declarationStringOrdenTrabajo ordenTrabajo*ordenTrabajo2ƒ
+.com.besisoft.proyectofinal.entity.OrdenTrabajoTYPEã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java>1 >(=⁄
+ocom.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl?ordenTrabajoRepository@24.35:24.57VARIABLEã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java# (9"
+isFinalfalse"
+typeOrdenTrabajoRepository"â
+declarationStringt<mark class="modifier">private </mark>OrdenTrabajoRepository <mark class="class-field">ordenTrabajoRepository</mark>"
+isStaticfalse"
+accessprivate*ordenTrabajoRepository2“
+<com.besisoft.proyectofinal.repository.OrdenTrabajoRepositoryTYPEã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java ("ª
+jcom.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl?clienteRepository@26.30:26.47VARIABLEã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java (/"
+isFinalfalse"
+typeClienteRepository"
+declarationStringj<mark class="modifier">private </mark>ClienteRepository <mark class="class-field">clienteRepository</mark>"
+isStaticfalse"
+accessprivate*clienteRepository2Õ
+7com.besisoft.proyectofinal.repository.ClienteRepositoryTYPEã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java (¬
+kcom.besisoft.proyectofinal.service.implementations.OrdenDeTrabajoServiceImpl?vehiculoRepository@28.31:28.49VARIABLEã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java (1"
+isFinalfalse"
+typeVehiculoRepository"Å
+declarationStringl<mark class="modifier">private </mark>VehiculoRepository <mark class="class-field">vehiculoRepository</mark>"
+isStaticfalse"
+accessprivate*vehiculoRepository2Œ
+8com.besisoft.proyectofinal.repository.VehiculoRepositoryTYPEã
+ÄE:/Besysoft final/TallerMecanico/src/main/java/com/besisoft/proyectofinal/service/implementations/OrdenDeTrabajoServiceImpl.java (

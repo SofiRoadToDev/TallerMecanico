@@ -1,0 +1,86 @@
+
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Repuesto.javaÍ
+*com.besisoft.proyectofinal.entity.RepuestoCLASSh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Repuesto.java (",
+package!com.besisoft.proyectofinal.entity"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"Æ
+declarationString°<mark class="annotation">@Getter</mark> <br><mark class="annotation">@Setter</mark> <br><mark class="annotation">@NoArgsConstructor</mark> <br><mark class="annotation">@AllArgsConstructor</mark> <br><mark class="annotation">@Builder</mark> <br><mark class="annotation">@Table(name = "repuestos")</mark> <br><mark class="annotation">@Entity</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>Repuesto"
+accesspublic*Repuesto2²
+9com.besisoft.proyectofinal.entity.Repuesto?id@22.17:22.19DECLARATIONh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Repuesto.java (2µ
+<com.besisoft.proyectofinal.entity.Repuesto?marca@25.19:25.24DECLARATIONh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Repuesto.java (2¶
+=com.besisoft.proyectofinal.entity.Repuesto?modelo@27.19:27.25DECLARATIONh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Repuesto.java (2¸
+?com.besisoft.proyectofinal.entity.Repuesto?repuesto@29.19:29.27DECLARATIONh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Repuesto.java (2µ
+<com.besisoft.proyectofinal.entity.Repuesto?valor@33.23:33.28DECLARATIONh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Repuesto.java! !(2Ä
+Kcom.besisoft.proyectofinal.entity.Repuesto?detalleOrdenTrabajos@37.37:37.57DECLARATIONh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Repuesto.java%% %(9«
+9com.besisoft.proyectofinal.entity.Repuesto?id@22.17:22.19VARIABLEh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Repuesto.java ("
+isFinalfalse"
+typeLong"°
+declarationStringš<mark class="modifier">private </mark>Long <mark class="class-field">id</mark> = GenerationType.IDENTITY)
+@Column(name = "repuesto_id")
+private Long id;"
+isStaticfalse"
+accessprivate*id2}
+lombok.LongTYPEh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Repuesto.java (ì
+<com.besisoft.proyectofinal.entity.Repuesto?marca@25.19:25.24VARIABLEh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Repuesto.java ("
+isFinalfalse"
+typeString"h
+declarationStringS<mark class="modifier">private </mark>String <mark class="class-field">marca</mark>"
+isStaticfalse"
+accessprivate*marca2
+lombok.StringTYPEh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Repuesto.java (ï
+=com.besisoft.proyectofinal.entity.Repuesto?modelo@27.19:27.25VARIABLEh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Repuesto.java ("
+isFinalfalse"
+typeString"i
+declarationStringT<mark class="modifier">private </mark>String <mark class="class-field">modelo</mark>"
+isStaticfalse"
+accessprivate*modelo2
+lombok.StringTYPEh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Repuesto.java (õ
+?com.besisoft.proyectofinal.entity.Repuesto?repuesto@29.19:29.27VARIABLEh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Repuesto.java ("
+isFinalfalse"
+typeString"k
+declarationStringV<mark class="modifier">private </mark>String <mark class="class-field">repuesto</mark>"
+isStaticfalse"
+accessprivate*repuesto2
+lombok.StringTYPEh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Repuesto.java (­
+<com.besisoft.proyectofinal.entity.Repuesto?valor@33.23:33.28VARIABLEh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Repuesto.java! !("
+isFinalfalse"
+type
+BigDecimal"œ
+declarationString†<mark class="modifier">private </mark>BigDecimal <mark class="class-field">valor</mark> = 17, fraction = 2)
+private BigDecimal valor;"
+isStaticfalse"
+accessprivate*valor2†
+java.math.BigDecimalTYPEh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Repuesto.java! !(å
+Kcom.besisoft.proyectofinal.entity.Repuesto?detalleOrdenTrabajos@37.37:37.57VARIABLEh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Repuesto.java%% %(9"
+isFinalfalse"!
+typeList<DetalleOrdenTrabajo>"æ
+declarationStringÐ<mark class="modifier">private </mark>List<DetalleOrdenTrabajo> <mark class="class-field">detalleOrdenTrabajos</mark> = "repuesto")
+private List<DetalleOrdenTrabajo> detalleOrdenTrabajos = new ArrayList<>();"
+isStaticfalse"
+accessprivate*detalleOrdenTrabajos2€
+java.util.ListTYPEh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Repuesto.java% %(2°
+5com.besisoft.proyectofinal.entity.DetalleOrdenTrabajoTYPE_ARGUMENTh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Repuesto.java% %($2‘
+java.util.ArrayList.ArrayList()CALLh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Repuesto.java%> %(I

@@ -1,0 +1,24 @@
+
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Empleado.java˙
+*com.besisoft.proyectofinal.entity.EmpleadoCLASSh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Empleado.java (",
+package!com.besisoft.proyectofinal.entity"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"Ù
+declarationStringﬁ<mark class="annotation">@Entity</mark> <br><mark class="annotation">@Getter</mark> <br><mark class="annotation">@Setter</mark> <br><mark class="annotation">@NoArgsConstructor</mark> <br><mark class="annotation">@AllArgsConstructor</mark> <br><mark class="annotation">@Builder</mark> <br><mark class="annotation">@Table(name = "empleados")</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>Empleado<mark class="modifier"> extends </mark>Persona"
+accesspublic*Empleado2º
+Ccom.besisoft.proyectofinal.entity.Empleado?tipoEmpleado@15.19:15.31DECLARATIONh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Empleado.java (2ù
+)com.besisoft.proyectofinal.entity.PersonaEXTENDh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Empleado.java (&Å
+Ccom.besisoft.proyectofinal.entity.Empleado?tipoEmpleado@15.19:15.31VARIABLEh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Empleado.java ("
+isFinalfalse"
+typeString"o
+declarationStringZ<mark class="modifier">private </mark>String <mark class="class-field">tipoEmpleado</mark>"
+isStaticfalse"
+accessprivate*tipoEmpleado2
+lombok.StringTYPEh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Empleado.java (

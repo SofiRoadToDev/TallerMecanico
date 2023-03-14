@@ -1,0 +1,94 @@
+
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Vehiculo.java≠
+*com.besisoft.proyectofinal.entity.VehiculoCLASSh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Vehiculo.java (",
+package!com.besisoft.proyectofinal.entity"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"¸
+declarationStringÊ<mark class="annotation">@Entity</mark> <br><mark class="annotation">@Data</mark> <br><mark class="annotation">@Table(name = "vehiculos")</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>Vehiculo"
+accesspublic*Vehiculo2≤
+9com.besisoft.proyectofinal.entity.Vehiculo?id@16.17:16.19DECLARATIONh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Vehiculo.java (2¥
+;com.besisoft.proyectofinal.entity.Vehiculo?anio@19.20:19.24DECLARATIONh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Vehiculo.java (2µ
+<com.besisoft.proyectofinal.entity.Vehiculo?color@21.19:21.24DECLARATIONh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Vehiculo.java (2µ
+<com.besisoft.proyectofinal.entity.Vehiculo?marca@23.20:23.25DECLARATIONh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Vehiculo.java (2∂
+=com.besisoft.proyectofinal.entity.Vehiculo?modelo@25.20:25.26DECLARATIONh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Vehiculo.java (2∑
+>com.besisoft.proyectofinal.entity.Vehiculo?patente@27.20:27.27DECLARATIONh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Vehiculo.java (2∏
+?com.besisoft.proyectofinal.entity.Vehiculo?clientes@30.25:30.33DECLARATIONh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Vehiculo.java (!ó
+9com.besisoft.proyectofinal.entity.Vehiculo?id@16.17:16.19VARIABLEh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Vehiculo.java ("
+isFinalfalse"
+typeLong"ê
+declarationString{<mark class="modifier">private </mark>Long <mark class="class-field">id</mark> = GenerationType.IDENTITY)
+private Long id;"
+isStaticfalse"
+accessprivate*id2à
+javax.persistence.LongTYPEh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Vehiculo.java (§
+;com.besisoft.proyectofinal.entity.Vehiculo?anio@19.20:19.24VARIABLEh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Vehiculo.java ("
+isFinalfalse"
+typeInteger"ì
+declarationString~<mark class="modifier">private </mark>Integer <mark class="class-field">anio</mark> = 1950, max = 2023)
+private Integer anio;"
+isStaticfalse"
+accessprivate*anio2ã
+javax.persistence.IntegerTYPEh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Vehiculo.java (¯
+<com.besisoft.proyectofinal.entity.Vehiculo?color@21.19:21.24VARIABLEh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Vehiculo.java ("
+isFinalfalse"
+typeString"h
+declarationStringS<mark class="modifier">private </mark>String <mark class="class-field">color</mark>"
+isStaticfalse"
+accessprivate*color2ä
+javax.persistence.StringTYPEh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Vehiculo.java (¯
+<com.besisoft.proyectofinal.entity.Vehiculo?marca@23.20:23.25VARIABLEh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Vehiculo.java ("
+isFinalfalse"
+typeString"h
+declarationStringS<mark class="modifier">private </mark>String <mark class="class-field">marca</mark>"
+isStaticfalse"
+accessprivate*marca2ä
+javax.persistence.StringTYPEh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Vehiculo.java (˚
+=com.besisoft.proyectofinal.entity.Vehiculo?modelo@25.20:25.26VARIABLEh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Vehiculo.java ("
+isFinalfalse"
+typeString"i
+declarationStringT<mark class="modifier">private </mark>String <mark class="class-field">modelo</mark>"
+isStaticfalse"
+accessprivate*modelo2ä
+javax.persistence.StringTYPEh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Vehiculo.java (˛
+>com.besisoft.proyectofinal.entity.Vehiculo?patente@27.20:27.27VARIABLEh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Vehiculo.java ("
+isFinalfalse"
+typeString"j
+declarationStringU<mark class="modifier">private </mark>String <mark class="class-field">patente</mark>"
+isStaticfalse"
+accessprivate*patente2ä
+javax.persistence.StringTYPEh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Vehiculo.java (÷
+?com.besisoft.proyectofinal.entity.Vehiculo?clientes@30.25:30.33VARIABLEh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Vehiculo.java (!"
+isFinalfalse"
+typeList<Cliente>"á
+declarationStringr<mark class="modifier">private </mark>List<Cliente> <mark class="class-field">clientes</mark> = new ArrayList<>();"
+isStaticfalse"
+accessprivate*clientes2Ä
+java.util.ListTYPEh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Vehiculo.java (2§
+)com.besisoft.proyectofinal.entity.ClienteTYPE_ARGUMENTh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Vehiculo.java (2ë
+java.util.ArrayList.ArrayList()CALLh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Vehiculo.java& (1

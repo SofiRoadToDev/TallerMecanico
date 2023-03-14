@@ -1,0 +1,200 @@
+
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.javaì
+Ecom.besisoft.proyectofinal.service.implementations.ClienteServiceImplCLASSÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java ("=
+package2com.besisoft.proyectofinal.service.implementations"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"ë
+declarationString˚<mark class="annotation">@Service</mark> <br><mark class="annotation">@AllArgsConstructor</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>ClienteServiceImpl<mark class="modifier"><br>implements </mark>ClienteService"
+accesspublic*ClienteServiceImpl2¸
+gcom.besisoft.proyectofinal.service.implementations.ClienteServiceImpl.obtenerPorEmail(java.lang.String)DECLARATIONÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java (,2í
+}com.besisoft.proyectofinal.service.implementations.ClienteServiceImpl.crearCliente(com.besisoft.proyectofinal.entity.Cliente)DECLARATIONÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java (2®
+ícom.besisoft.proyectofinal.service.implementations.ClienteServiceImpl.actualizarCliente(com.besisoft.proyectofinal.entity.Cliente, java.lang.Long)DECLARATIONÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java+ +($2¯
+ccom.besisoft.proyectofinal.service.implementations.ClienteServiceImpl?clienteRepository@17.30:17.47DECLARATIONÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java (/2Ã
+<com.besisoft.proyectofinal.service.interfaces.ClienteServiceEXTENDÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java+ (9æ
+gcom.besisoft.proyectofinal.service.implementations.ClienteServiceImpl.obtenerPorEmail(java.lang.String)METHODÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java (,"
+isFinalfalse"ñ
+declarationStringÄ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>Optional&lt;Cliente&gt; <mark class="method">obtenerPorEmail</mark>(String email)<mark class="modifier"> <mark class="modifier">throws</mark> </mark>ClienteNotFoundException"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeOptional<Cliente>*obtenerPorEmail2Ó
+`com.besisoft.proyectofinal.repository.ClienteRepository.findByCorreoElectonico(java.lang.String)CALLÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java8 (N2¨
+java.util.Optional.isPresent()CALLÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java (2å
+~com.besisoft.proyectofinal.exceptions.ClienteNotFoundException.ClienteNotFoundException(java.lang.String, java.lang.Throwable)CALLÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java (.2˚
+mcom.besisoft.proyectofinal.service.implementations.ClienteServiceImpl.obtenerPorEmail(java.lang.String)!emailCALLÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.javaO (T2â
+{com.besisoft.proyectofinal.service.implementations.ClienteServiceImpl.obtenerPorEmail(java.lang.String)?cliente@20.25:20.32CALLÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java (2â
+{com.besisoft.proyectofinal.service.implementations.ClienteServiceImpl.obtenerPorEmail(java.lang.String)?cliente@20.25:20.32CALLÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java (2Ò
+ccom.besisoft.proyectofinal.service.implementations.ClienteServiceImpl?clienteRepository@17.30:17.47CALLÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java& (72
+^com.besisoft.proyectofinal.service.interfaces.ClienteService.obtenerPorEmail(java.lang.String)OVERRIDEÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java (,2Ä
+mcom.besisoft.proyectofinal.service.implementations.ClienteServiceImpl.obtenerPorEmail(java.lang.String)!email	PARAMETERÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java4 (92ê
+{com.besisoft.proyectofinal.service.implementations.ClienteServiceImpl.obtenerPorEmail(java.lang.String)?cliente@20.25:20.32DECLARATIONÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java ( 2ß
+java.util.OptionalRETURN_TYPEÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java (2«
+)com.besisoft.proyectofinal.entity.ClienteRETURN_TYPE_ARGUMENTÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java (”
+{com.besisoft.proyectofinal.service.implementations.ClienteServiceImpl.obtenerPorEmail(java.lang.String)?cliente@20.25:20.32VARIABLEÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java ( "
+typeOptional<Cliente>"
+isFinalfalse"ƒ
+declarationStringÆ<mark class="modifier"> </mark>Optional<Cliente> <mark class="class-field">cliente</mark> = <mark class="modifier">this</mark>.clienteRepository.findByCorreoElectonico(email)*cliente2†
+java.util.OptionalTYPEÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java (2¿
+)com.besisoft.proyectofinal.entity.ClienteTYPE_ARGUMENTÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java (2Ó
+`com.besisoft.proyectofinal.repository.ClienteRepository.findByCorreoElectonico(java.lang.String)CALLÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java8 (N2˚
+mcom.besisoft.proyectofinal.service.implementations.ClienteServiceImpl.obtenerPorEmail(java.lang.String)!emailCALLÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.javaO (T2Ò
+ccom.besisoft.proyectofinal.service.implementations.ClienteServiceImpl?clienteRepository@17.30:17.47CALLÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java& (7Ì
+mcom.besisoft.proyectofinal.service.implementations.ClienteServiceImpl.obtenerPorEmail(java.lang.String)!email	PARAMETERÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java4 (9"
+typeString"
+isFinalfalse"!
+declarationStringString email*email2û
+java.lang.StringTYPEÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java- (3Æ
+}com.besisoft.proyectofinal.service.implementations.ClienteServiceImpl.crearCliente(com.besisoft.proyectofinal.entity.Cliente)METHODÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java ("
+isFinalfalse"ï
+declarationStringˇ <br><mark class="annotation">@Transactional</mark> <br><mark class="modifier">public </mark>Cliente <mark class="method">crearCliente</mark>(Cliente cliente)<mark class="modifier"> <mark class="modifier">throws</mark> </mark>ClienteAlreadyExistsException"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeCliente*crearCliente2¨
+java.util.Optional.isPresent()CALLÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java! !("2ó
+àcom.besisoft.proyectofinal.exceptions.ClienteAlreadyExistsException.ClienteAlreadyExistsException(java.lang.String, java.lang.Throwable)CALLÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java" "(32î
+Öcom.besisoft.proyectofinal.service.implementations.ClienteServiceImpl.crearCliente(com.besisoft.proyectofinal.entity.Cliente)!clienteCALLÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java U  (\2¶
+ócom.besisoft.proyectofinal.service.implementations.ClienteServiceImpl.crearCliente(com.besisoft.proyectofinal.entity.Cliente)?clienteStored@32.25:32.38CALLÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java! !(2î
+Öcom.besisoft.proyectofinal.service.implementations.ClienteServiceImpl.crearCliente(com.besisoft.proyectofinal.entity.Cliente)!clienteCALLÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java$/ $(62Ò
+ccom.besisoft.proyectofinal.service.implementations.ClienteServiceImpl?clienteRepository@17.30:17.47CALLÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java ,  (=2Ò
+ccom.besisoft.proyectofinal.service.implementations.ClienteServiceImpl?clienteRepository@17.30:17.47CALLÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java$ $()2Ü
+tcom.besisoft.proyectofinal.service.interfaces.ClienteService.crearCliente(com.besisoft.proyectofinal.entity.Cliente)OVERRIDEÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java (2ô
+Öcom.besisoft.proyectofinal.service.implementations.ClienteServiceImpl.crearCliente(com.besisoft.proyectofinal.entity.Cliente)!cliente	PARAMETERÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java( (/2≠
+ócom.besisoft.proyectofinal.service.implementations.ClienteServiceImpl.crearCliente(com.besisoft.proyectofinal.entity.Cliente)?clienteStored@32.25:32.38DECLARATIONÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java   (&2æ
+)com.besisoft.proyectofinal.entity.ClienteRETURN_TYPEÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java (Ω
+ócom.besisoft.proyectofinal.service.implementations.ClienteServiceImpl.crearCliente(com.besisoft.proyectofinal.entity.Cliente)?clienteStored@32.25:32.38VARIABLEÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java   (&"
+typeOptional<Cliente>"
+isFinalfalse"„
+declarationStringÕ<mark class="modifier"> </mark>Optional<Cliente> <mark class="class-field">clienteStored</mark> = <mark class="modifier">this</mark>.clienteRepository.findByCorreoElectonico(cliente.getCorreoElectronico())*clienteStored2†
+java.util.OptionalTYPEÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java   (2¿
+)com.besisoft.proyectofinal.entity.ClienteTYPE_ARGUMENTÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java   (2î
+Öcom.besisoft.proyectofinal.service.implementations.ClienteServiceImpl.crearCliente(com.besisoft.proyectofinal.entity.Cliente)!clienteCALLÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java U  (\2Ò
+ccom.besisoft.proyectofinal.service.implementations.ClienteServiceImpl?clienteRepository@17.30:17.47CALLÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java ,  (=•
+Öcom.besisoft.proyectofinal.service.implementations.ClienteServiceImpl.crearCliente(com.besisoft.proyectofinal.entity.Cliente)!cliente	PARAMETERÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java( (/"
+typeCliente"
+isFinalfalse"$
+declarationStringCliente cliente*cliente2∑
+)com.besisoft.proyectofinal.entity.ClienteTYPEÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java  ('√"
+ícom.besisoft.proyectofinal.service.implementations.ClienteServiceImpl.actualizarCliente(com.besisoft.proyectofinal.entity.Cliente, java.lang.Long)METHODÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java+ +($"
+isFinalfalse"˛
+declarationStringË <br><mark class="annotation">@Transactional</mark> <br><mark class="modifier">public </mark>Cliente <mark class="method">actualizarCliente</mark>(Cliente cliente<mark class="modifier"><mark class="modifier">,</mark></mark> Long id)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeCliente*actualizarCliente2¨
+java.util.Optional.isPresent()CALLÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java- -("2Ã
+>java.lang.String.format(java.lang.String, java.lang.Object...)CALLÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java06 0(<2å
+~com.besisoft.proyectofinal.exceptions.ClienteNotFoundException.ClienteNotFoundException(java.lang.String, java.lang.Throwable)CALLÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java0 0(.2Ò
+ccom.besisoft.proyectofinal.service.implementations.ClienteServiceImpl?clienteRepository@17.30:17.47CALLÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java,' ,(82§
+ïcom.besisoft.proyectofinal.service.implementations.ClienteServiceImpl.actualizarCliente(com.besisoft.proyectofinal.entity.Cliente, java.lang.Long)!idCALLÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java,B ,(D2ª
+¨com.besisoft.proyectofinal.service.implementations.ClienteServiceImpl.actualizarCliente(com.besisoft.proyectofinal.entity.Cliente, java.lang.Long)?clienteStored@44.25:44.38CALLÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java- -(2©
+öcom.besisoft.proyectofinal.service.implementations.ClienteServiceImpl.actualizarCliente(com.besisoft.proyectofinal.entity.Cliente, java.lang.Long)!clienteCALLÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java./ .(62§
+ïcom.besisoft.proyectofinal.service.implementations.ClienteServiceImpl.actualizarCliente(com.besisoft.proyectofinal.entity.Cliente, java.lang.Long)!idCALLÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java0Z 0(\2Ò
+ccom.besisoft.proyectofinal.service.implementations.ClienteServiceImpl?clienteRepository@17.30:17.47CALLÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java. .()2ú
+âcom.besisoft.proyectofinal.service.interfaces.ClienteService.actualizarCliente(com.besisoft.proyectofinal.entity.Cliente, java.lang.Long)OVERRIDEÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java+ +($2Æ
+öcom.besisoft.proyectofinal.service.implementations.ClienteServiceImpl.actualizarCliente(com.besisoft.proyectofinal.entity.Cliente, java.lang.Long)!cliente	PARAMETERÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java+- +(42©
+ïcom.besisoft.proyectofinal.service.implementations.ClienteServiceImpl.actualizarCliente(com.besisoft.proyectofinal.entity.Cliente, java.lang.Long)!id	PARAMETERÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java+; +(=2¬
+¨com.besisoft.proyectofinal.service.implementations.ClienteServiceImpl.actualizarCliente(com.besisoft.proyectofinal.entity.Cliente, java.lang.Long)?clienteStored@44.25:44.38DECLARATIONÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java, ,(&2æ
+)com.besisoft.proyectofinal.entity.ClienteRETURN_TYPEÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java+ +(ï
+¨com.besisoft.proyectofinal.service.implementations.ClienteServiceImpl.actualizarCliente(com.besisoft.proyectofinal.entity.Cliente, java.lang.Long)?clienteStored@44.25:44.38VARIABLEÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java, ,(&"
+typeOptional<Cliente>"
+isFinalfalse"ñ
+declarationStringÄ<mark class="modifier"> </mark>Optional<Cliente> <mark class="class-field">clienteStored</mark> = clienteRepository.findById(id)*clienteStored2†
+java.util.OptionalTYPEÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java, ,(2¿
+)com.besisoft.proyectofinal.entity.ClienteTYPE_ARGUMENTÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java, ,(2Ò
+ccom.besisoft.proyectofinal.service.implementations.ClienteServiceImpl?clienteRepository@17.30:17.47CALLÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java,' ,(82§
+ïcom.besisoft.proyectofinal.service.implementations.ClienteServiceImpl.actualizarCliente(com.besisoft.proyectofinal.entity.Cliente, java.lang.Long)!idCALLÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java,B ,(D∫
+öcom.besisoft.proyectofinal.service.implementations.ClienteServiceImpl.actualizarCliente(com.besisoft.proyectofinal.entity.Cliente, java.lang.Long)!cliente	PARAMETERÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java+- +(4"
+typeCliente"
+isFinalfalse"$
+declarationStringCliente cliente*cliente2∑
+)com.besisoft.proyectofinal.entity.ClienteTYPEÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java+% +(,ä
+ïcom.besisoft.proyectofinal.service.implementations.ClienteServiceImpl.actualizarCliente(com.besisoft.proyectofinal.entity.Cliente, java.lang.Long)!id	PARAMETERÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java+; +(="
+typeLong"
+isFinalfalse"
+declarationStringLong id*id2ú
+java.lang.LongTYPEÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java+6 +(:§
+ccom.besisoft.proyectofinal.service.implementations.ClienteServiceImpl?clienteRepository@17.30:17.47VARIABLEÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java (/"
+isFinalfalse"
+typeClienteRepository"
+declarationStringj<mark class="modifier">private </mark>ClienteRepository <mark class="class-field">clienteRepository</mark>"
+isStaticfalse"
+accessprivate*clienteRepository2≈
+7com.besisoft.proyectofinal.repository.ClienteRepositoryTYPEÉ
+yE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\implementations\ClienteServiceImpl.java (

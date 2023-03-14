@@ -26,7 +26,8 @@ public class OrdenTrabajo {
 
     private String detalleFallas;
 
-    private String estado;
+    @Enumerated(EnumType.STRING)
+    private EstadoOrdenTrabajo estado;
 
     @Temporal(TemporalType.TIMESTAMP)
     private Date fechaFinReparacion;
@@ -47,7 +48,7 @@ public class OrdenTrabajo {
 
     private  String tipoTarjeta;
 
-    @ManyToOne
+    @ManyToOne(cascade = CascadeType.MERGE)
     @JoinColumn(name = "vehiculo_id")
     private Vehiculo vehiculo;
 

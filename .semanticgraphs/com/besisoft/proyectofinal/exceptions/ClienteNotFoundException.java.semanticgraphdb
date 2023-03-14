@@ -1,0 +1,44 @@
+
+rE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\exceptions\ClienteNotFoundException.javaÄ
+>com.besisoft.proyectofinal.exceptions.ClienteNotFoundExceptionCLASS|
+rE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\exceptions\ClienteNotFoundException.java (%"0
+package%com.besisoft.proyectofinal.exceptions"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"®
+declarationString˜<mark class="modifier">public </mark><mark class="modifier">class </mark>ClienteNotFoundException<mark class="modifier"> extends </mark>RuntimeException"
+accesspublic*ClienteNotFoundException2‹
+~com.besisoft.proyectofinal.exceptions.ClienteNotFoundException.ClienteNotFoundException(java.lang.String, java.lang.Throwable)DECLARATION|
+rE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\exceptions\ClienteNotFoundException.java (#2¢
+java.lang.RuntimeExceptionEXTEND|
+rE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\exceptions\ClienteNotFoundException.java. (>ã
+~com.besisoft.proyectofinal.exceptions.ClienteNotFoundException.ClienteNotFoundException(java.lang.String, java.lang.Throwable)CONSTRUCTOR|
+rE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\exceptions\ClienteNotFoundException.java (#"Ì
+declarationString¶<mark class="modifier">public </mark><mark class="method">ClienteNotFoundException</mark>(String message<mark class="modifier"><mark class="modifier">,</mark></mark> Throwable cause)*ClienteNotFoundException2Ø
+Rjava.lang.RuntimeException.RuntimeException(java.lang.String, java.lang.Throwable)CALL|
+rE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\exceptions\ClienteNotFoundException.java (2
+†com.besisoft.proyectofinal.exceptions.ClienteNotFoundException.ClienteNotFoundException(java.lang.String, java.lang.Throwable)!messageCALL|
+rE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\exceptions\ClienteNotFoundException.java (2‹
+„com.besisoft.proyectofinal.exceptions.ClienteNotFoundException.ClienteNotFoundException(java.lang.String, java.lang.Throwable)!causeCALL|
+rE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\exceptions\ClienteNotFoundException.java (2’
+†com.besisoft.proyectofinal.exceptions.ClienteNotFoundException.ClienteNotFoundException(java.lang.String, java.lang.Throwable)!message	PARAMETER|
+rE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\exceptions\ClienteNotFoundException.java+ (22
+„com.besisoft.proyectofinal.exceptions.ClienteNotFoundException.ClienteNotFoundException(java.lang.String, java.lang.Throwable)!cause	PARAMETER|
+rE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\exceptions\ClienteNotFoundException.java> (C2Ë
+>com.besisoft.proyectofinal.exceptions.ClienteNotFoundExceptionRETURN_TYPE|
+rE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\exceptions\ClienteNotFoundException.java (#û
+†com.besisoft.proyectofinal.exceptions.ClienteNotFoundException.ClienteNotFoundException(java.lang.String, java.lang.Throwable)!message	PARAMETER|
+rE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\exceptions\ClienteNotFoundException.java+ (2"
+typeString"
+isFinalfalse"#
+declarationStringString message*message2–
+java.lang.StringTYPE|
+rE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\exceptions\ClienteNotFoundException.java$ (*þ
+„com.besisoft.proyectofinal.exceptions.ClienteNotFoundException.ClienteNotFoundException(java.lang.String, java.lang.Throwable)!cause	PARAMETER|
+rE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\exceptions\ClienteNotFoundException.java> (C"
+type	Throwable"
+isFinalfalse"$
+declarationStringThrowable cause*cause2™
+java.lang.ThrowableTYPE|
+rE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\exceptions\ClienteNotFoundException.java4 (=

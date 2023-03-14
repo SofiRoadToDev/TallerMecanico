@@ -1,0 +1,17 @@
+
+lE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\repository\EmpleadoRepository.java 
+8com.besisoft.proyectofinal.repository.EmpleadoRepositoryTRAITv
+lE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\repository\EmpleadoRepository.java (#"0
+package%com.besisoft.proyectofinal.repository"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"º
+declarationString¤<mark class="modifier">public </mark><mark class="modifier">interface </mark>EmpleadoRepository<mark class="modifier"> extends </mark>CrudRepository<Empleado, Long>"
+accesspublic*EmpleadoRepository2´
+2org.springframework.data.repository.CrudRepositoryEXTENDv
+lE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\repository\EmpleadoRepository.java, (:2º
+*com.besisoft.proyectofinal.entity.EmpleadoEXTEND_TYPE_ARGUMENTv
+lE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\repository\EmpleadoRepository.java; (C2ž
+java.lang.LongEXTEND_TYPE_ARGUMENTv
+lE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\repository\EmpleadoRepository.javaD (H

@@ -1,0 +1,44 @@
+
+wE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\exceptions\ClienteAlreadyExistsException.java
+Ccom.besisoft.proyectofinal.exceptions.ClienteAlreadyExistsExceptionCLASSÅ
+wE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\exceptions\ClienteAlreadyExistsException.java (*"0
+package%com.besisoft.proyectofinal.exceptions"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"≥
+declarationStringù<mark class="modifier">public </mark><mark class="modifier">class </mark>ClienteAlreadyExistsException<mark class="modifier"> extends </mark>RuntimeException"
+accesspublic*ClienteAlreadyExistsException2ú
+àcom.besisoft.proyectofinal.exceptions.ClienteAlreadyExistsException.ClienteAlreadyExistsException(java.lang.String, java.lang.Throwable)DECLARATIONÅ
+wE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\exceptions\ClienteAlreadyExistsException.java ((2®
+java.lang.RuntimeExceptionEXTENDÅ
+wE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\exceptions\ClienteAlreadyExistsException.java3 (Cœ
+àcom.besisoft.proyectofinal.exceptions.ClienteAlreadyExistsException.ClienteAlreadyExistsException(java.lang.String, java.lang.Throwable)CONSTRUCTORÅ
+wE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\exceptions\ClienteAlreadyExistsException.java (("—
+declarationStringª<mark class="modifier">public </mark><mark class="method">ClienteAlreadyExistsException</mark>(String message<mark class="modifier"><mark class="modifier">,</mark></mark> Throwable cause)*ClienteAlreadyExistsException2ﬁ
+Rjava.lang.RuntimeException.RuntimeException(java.lang.String, java.lang.Throwable)CALLÅ
+wE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\exceptions\ClienteAlreadyExistsException.java (2ù
+êcom.besisoft.proyectofinal.exceptions.ClienteAlreadyExistsException.ClienteAlreadyExistsException(java.lang.String, java.lang.Throwable)!messageCALLÅ
+wE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\exceptions\ClienteAlreadyExistsException.java (2õ
+écom.besisoft.proyectofinal.exceptions.ClienteAlreadyExistsException.ClienteAlreadyExistsException(java.lang.String, java.lang.Throwable)!causeCALLÅ
+wE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\exceptions\ClienteAlreadyExistsException.java (2¢
+êcom.besisoft.proyectofinal.exceptions.ClienteAlreadyExistsException.ClienteAlreadyExistsException(java.lang.String, java.lang.Throwable)!message	PARAMETERÅ
+wE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\exceptions\ClienteAlreadyExistsException.java0 (72†
+écom.besisoft.proyectofinal.exceptions.ClienteAlreadyExistsException.ClienteAlreadyExistsException(java.lang.String, java.lang.Throwable)!cause	PARAMETERÅ
+wE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\exceptions\ClienteAlreadyExistsException.javaC (H2÷
+Ccom.besisoft.proyectofinal.exceptions.ClienteAlreadyExistsExceptionRETURN_TYPEÅ
+wE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\exceptions\ClienteAlreadyExistsException.java ((ë
+êcom.besisoft.proyectofinal.exceptions.ClienteAlreadyExistsException.ClienteAlreadyExistsException(java.lang.String, java.lang.Throwable)!message	PARAMETERÅ
+wE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\exceptions\ClienteAlreadyExistsException.java0 (7"
+typeString"
+isFinalfalse"#
+declarationStringString message*message2ú
+java.lang.StringTYPEÅ
+wE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\exceptions\ClienteAlreadyExistsException.java) (/î
+écom.besisoft.proyectofinal.exceptions.ClienteAlreadyExistsException.ClienteAlreadyExistsException(java.lang.String, java.lang.Throwable)!cause	PARAMETERÅ
+wE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\exceptions\ClienteAlreadyExistsException.javaC (H"
+type	Throwable"
+isFinalfalse"$
+declarationStringThrowable cause*cause2ü
+java.lang.ThrowableTYPEÅ
+wE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\exceptions\ClienteAlreadyExistsException.java9 (B

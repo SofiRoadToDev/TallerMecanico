@@ -1,0 +1,55 @@
+
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Cliente.javaÔ
+)com.besisoft.proyectofinal.entity.ClienteCLASSg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Cliente.java (",
+package!com.besisoft.proyectofinal.entity"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"Ú
+declarationString‹<mark class="annotation">@Getter</mark> <br><mark class="annotation">@Setter</mark> <br><mark class="annotation">@NoArgsConstructor</mark> <br><mark class="annotation">@AllArgsConstructor</mark> <br><mark class="annotation">@Builder</mark> <br><mark class="annotation">@Entity</mark> <br><mark class="annotation">@Table(name = "clientes")</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>Cliente<mark class="modifier"> extends </mark>Persona"
+accesspublic*Cliente2ª
+Ccom.besisoft.proyectofinal.entity.Cliente?telefonoLinea@24.19:24.32DECLARATIONg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Cliente.java ( 2ø
+Gcom.besisoft.proyectofinal.entity.Cliente?correoElectronico@30.19:30.36DECLARATIONg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Cliente.java ($2∑
+?com.besisoft.proyectofinal.entity.Cliente?vehiculos@33.26:33.35DECLARATIONg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Cliente.java! !(#2ú
+)com.besisoft.proyectofinal.entity.PersonaEXTENDg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Cliente.java ($˙
+Ccom.besisoft.proyectofinal.entity.Cliente?telefonoLinea@24.19:24.32VARIABLEg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Cliente.java ( "
+isFinalfalse"
+typeString"Ë
+declarationString“<mark class="modifier">private </mark>String <mark class="class-field">telefonoLinea</mark> = 15)
+@Length(max = 15, min = 15, message = "Coloque un numero valido, de 15 digitos")
+private String telefonoLinea;"
+isStaticfalse"
+accessprivate*telefonoLinea2~
+lombok.StringTYPEg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Cliente.java (ä
+Gcom.besisoft.proyectofinal.entity.Cliente?correoElectronico@30.19:30.36VARIABLEg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Cliente.java ($"
+isFinalfalse"
+typeString"
+declarationString⁄<mark class="modifier">private </mark>String <mark class="class-field">correoElectronico</mark> = "Ingrese el email de manera correcta")
+@NotNull(message = "El email es obligatorio")
+private String correoElectronico;"
+isStaticfalse"
+accessprivate*correoElectronico2~
+lombok.StringTYPEg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Cliente.java (á
+?com.besisoft.proyectofinal.entity.Cliente?vehiculos@33.26:33.35VARIABLEg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Cliente.java! !(#"
+isFinalfalse"
+typeList<Vehiculo>"∫
+declarationString§<mark class="modifier">private </mark>List<Vehiculo> <mark class="class-field">vehiculos</mark> = "clientes")
+private List<Vehiculo> vehiculos = new ArrayList<>();"
+isStaticfalse"
+accessprivate*	vehiculos2
+java.util.ListTYPEg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Cliente.java! !(2§
+*com.besisoft.proyectofinal.entity.VehiculoTYPE_ARGUMENTg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Cliente.java! !(2ê
+java.util.ArrayList.ArrayList()CALLg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Cliente.java!( !(3

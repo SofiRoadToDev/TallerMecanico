@@ -1,0 +1,72 @@
+
+iE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\DetalleOrdenTrabajo.javaº
+5com.besisoft.proyectofinal.entity.DetalleOrdenTrabajoCLASSs
+iE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\DetalleOrdenTrabajo.java ( ",
+package!com.besisoft.proyectofinal.entity"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"ﬂ
+declarationString…<mark class="annotation">@Entity</mark> <br><mark class="annotation">@Getter</mark> <br><mark class="annotation">@Setter</mark> <br><mark class="annotation">@NoArgsConstructor</mark> <br><mark class="annotation">@AllArgsConstructor</mark> <br><mark class="annotation">@Builder</mark> <br><mark class="annotation">@Table(name = "detalle_ordenes_trabajo")</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>DetalleOrdenTrabajo"
+accesspublic*DetalleOrdenTrabajo2»
+Dcom.besisoft.proyectofinal.entity.DetalleOrdenTrabajo?id@19.17:19.19DECLARATIONs
+iE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\DetalleOrdenTrabajo.java (2“
+Ncom.besisoft.proyectofinal.entity.DetalleOrdenTrabajo?ordenTrabajo@23.25:23.37DECLARATIONs
+iE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\DetalleOrdenTrabajo.java (%2Œ
+Jcom.besisoft.proyectofinal.entity.DetalleOrdenTrabajo?repuesto@27.21:27.29DECLARATIONs
+iE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\DetalleOrdenTrabajo.java (2Œ
+Jcom.besisoft.proyectofinal.entity.DetalleOrdenTrabajo?cantidad@29.20:29.28DECLARATIONs
+iE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\DetalleOrdenTrabajo.java (2–
+Lcom.besisoft.proyectofinal.entity.DetalleOrdenTrabajo?valorTotal@32.23:32.33DECLARATIONs
+iE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\DetalleOrdenTrabajo.java   (!≠
+Dcom.besisoft.proyectofinal.entity.DetalleOrdenTrabajo?id@19.17:19.19VARIABLEs
+iE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\DetalleOrdenTrabajo.java ("
+isFinalfalse"
+typeLong"ê
+declarationString{<mark class="modifier">private </mark>Long <mark class="class-field">id</mark> = GenerationType.IDENTITY)
+private Long id;"
+isStaticfalse"
+accessprivate*id2à
+lombok.LongTYPEs
+iE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\DetalleOrdenTrabajo.java (å
+Ncom.besisoft.proyectofinal.entity.DetalleOrdenTrabajo?ordenTrabajo@23.25:23.37VARIABLEs
+iE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\DetalleOrdenTrabajo.java (%"
+isFinalfalse"
+typeOrdenTrabajo"∞
+declarationStringö<mark class="modifier">private </mark>OrdenTrabajo <mark class="class-field">ordenTrabajo</mark> = "orden_trabajo_id")
+private OrdenTrabajo ordenTrabajo;"
+isStaticfalse"
+accessprivate*ordenTrabajo2´
+.com.besisoft.proyectofinal.entity.OrdenTrabajoTYPEs
+iE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\DetalleOrdenTrabajo.java (Á
+Jcom.besisoft.proyectofinal.entity.DetalleOrdenTrabajo?repuesto@27.21:27.29VARIABLEs
+iE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\DetalleOrdenTrabajo.java ("
+isFinalfalse"
+typeRepuesto"õ
+declarationStringÖ<mark class="modifier">private </mark>Repuesto <mark class="class-field">repuesto</mark> = "repuesto_id")
+private Repuesto repuesto;"
+isStaticfalse"
+accessprivate*repuesto2ß
+*com.besisoft.proyectofinal.entity.RepuestoTYPEs
+iE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\DetalleOrdenTrabajo.java (ö
+Jcom.besisoft.proyectofinal.entity.DetalleOrdenTrabajo?cantidad@29.20:29.28VARIABLEs
+iE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\DetalleOrdenTrabajo.java ("
+isFinalfalse"
+typeInteger"l
+declarationStringW<mark class="modifier">private </mark>Integer <mark class="class-field">cantidad</mark>"
+isStaticfalse"
+accessprivate*cantidad2ã
+lombok.IntegerTYPEs
+iE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\DetalleOrdenTrabajo.java (‚
+Lcom.besisoft.proyectofinal.entity.DetalleOrdenTrabajo?valorTotal@32.23:32.33VARIABLEs
+iE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\DetalleOrdenTrabajo.java   (!"
+isFinalfalse"
+type
+BigDecimal"¶
+declarationStringê<mark class="modifier">private </mark>BigDecimal <mark class="class-field">valorTotal</mark> = 17, fraction = 2)
+private BigDecimal valorTotal;"
+isStaticfalse"
+accessprivate*
+valorTotal2ë
+java.math.BigDecimalTYPEs
+iE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\DetalleOrdenTrabajo.java   (

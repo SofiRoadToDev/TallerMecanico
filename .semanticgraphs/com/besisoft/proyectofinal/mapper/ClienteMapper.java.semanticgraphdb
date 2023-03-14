@@ -1,0 +1,187 @@
+
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.javaÛ
+/com.besisoft.proyectofinal.mapper.ClienteMapperCLASSm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java
+ 
+(",
+package!com.besisoft.proyectofinal.mapper"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"k
+declarationStringV<mark class="modifier">public </mark><mark class="modifier">class </mark>ClienteMapper"
+accesspublic*ClienteMapper2Ë
+jcom.besisoft.proyectofinal.mapper.ClienteMapper.mapToClienteDTO(com.besisoft.proyectofinal.entity.Cliente)DECLARATIONm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java (,2Â
+gcom.besisoft.proyectofinal.mapper.ClienteMapper.mapToCliente(com.besisoft.proyectofinal.dto.ClienteDTO)DECLARATIONm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java (&ù7
+jcom.besisoft.proyectofinal.mapper.ClienteMapper.mapToClienteDTO(com.besisoft.proyectofinal.entity.Cliente)METHODm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java (,"
+isFinalfalse"ß
+declarationStringë<mark class="modifier">public </mark><mark class="modifier">static </mark>ClienteDTO <mark class="method">mapToClienteDTO</mark>(Cliente cliente)"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+type
+ClienteDTO*mapToClienteDTO2õ
+$java.util.stream.Collectors.toList()CALLm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java (#2≠
+6com.besisoft.proyectofinal.dto.ClienteDTO.ClienteDTO()CALLm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java (%2Ò
+zcom.besisoft.proyectofinal.mapper.ClienteMapper.mapToClienteDTO(com.besisoft.proyectofinal.entity.Cliente)?dto@13.19:13.22CALLm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java (2È
+rcom.besisoft.proyectofinal.mapper.ClienteMapper.mapToClienteDTO(com.besisoft.proyectofinal.entity.Cliente)!clienteCALLm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java (2Ò
+zcom.besisoft.proyectofinal.mapper.ClienteMapper.mapToClienteDTO(com.besisoft.proyectofinal.entity.Cliente)?dto@13.19:13.22CALLm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java (2È
+rcom.besisoft.proyectofinal.mapper.ClienteMapper.mapToClienteDTO(com.besisoft.proyectofinal.entity.Cliente)!clienteCALLm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java (2Ò
+zcom.besisoft.proyectofinal.mapper.ClienteMapper.mapToClienteDTO(com.besisoft.proyectofinal.entity.Cliente)?dto@13.19:13.22CALLm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java (2È
+rcom.besisoft.proyectofinal.mapper.ClienteMapper.mapToClienteDTO(com.besisoft.proyectofinal.entity.Cliente)!clienteCALLm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java (2Ò
+zcom.besisoft.proyectofinal.mapper.ClienteMapper.mapToClienteDTO(com.besisoft.proyectofinal.entity.Cliente)?dto@13.19:13.22CALLm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java (2È
+rcom.besisoft.proyectofinal.mapper.ClienteMapper.mapToClienteDTO(com.besisoft.proyectofinal.entity.Cliente)!clienteCALLm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java (2Ò
+zcom.besisoft.proyectofinal.mapper.ClienteMapper.mapToClienteDTO(com.besisoft.proyectofinal.entity.Cliente)?dto@13.19:13.22CALLm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java (2È
+rcom.besisoft.proyectofinal.mapper.ClienteMapper.mapToClienteDTO(com.besisoft.proyectofinal.entity.Cliente)!clienteCALLm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java (2Ò
+zcom.besisoft.proyectofinal.mapper.ClienteMapper.mapToClienteDTO(com.besisoft.proyectofinal.entity.Cliente)?dto@13.19:13.22CALLm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java (2È
+rcom.besisoft.proyectofinal.mapper.ClienteMapper.mapToClienteDTO(com.besisoft.proyectofinal.entity.Cliente)!clienteCALLm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java (#2Ò
+zcom.besisoft.proyectofinal.mapper.ClienteMapper.mapToClienteDTO(com.besisoft.proyectofinal.entity.Cliente)?dto@13.19:13.22CALLm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java (2È
+rcom.besisoft.proyectofinal.mapper.ClienteMapper.mapToClienteDTO(com.besisoft.proyectofinal.entity.Cliente)!clienteCALLm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java (2Ò
+zcom.besisoft.proyectofinal.mapper.ClienteMapper.mapToClienteDTO(com.besisoft.proyectofinal.entity.Cliente)?dto@13.19:13.22CALLm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java (2È
+rcom.besisoft.proyectofinal.mapper.ClienteMapper.mapToClienteDTO(com.besisoft.proyectofinal.entity.Cliente)!clienteCALLm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java (2È
+rcom.besisoft.proyectofinal.mapper.ClienteMapper.mapToClienteDTO(com.besisoft.proyectofinal.entity.Cliente)!clienteCALLm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java (&2Ô
+xcom.besisoft.proyectofinal.mapper.ClienteMapper.mapToClienteDTO(com.besisoft.proyectofinal.entity.Cliente)?v@23.12:23.13CALLm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java (2Ò
+zcom.besisoft.proyectofinal.mapper.ClienteMapper.mapToClienteDTO(com.besisoft.proyectofinal.entity.Cliente)?dto@13.19:13.22CALLm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java (2¯
+Äcom.besisoft.proyectofinal.mapper.ClienteMapper.mapToClienteDTO(com.besisoft.proyectofinal.entity.Cliente)?vehiculos@22.21:22.30CALLm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java ("2Ò
+zcom.besisoft.proyectofinal.mapper.ClienteMapper.mapToClienteDTO(com.besisoft.proyectofinal.entity.Cliente)?dto@13.19:13.22CALLm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java (2Ó
+rcom.besisoft.proyectofinal.mapper.ClienteMapper.mapToClienteDTO(com.besisoft.proyectofinal.entity.Cliente)!cliente	PARAMETERm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java5 (<2¯
+zcom.besisoft.proyectofinal.mapper.ClienteMapper.mapToClienteDTO(com.besisoft.proyectofinal.entity.Cliente)?dto@13.19:13.22DECLARATIONm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java (2ˇ
+Äcom.besisoft.proyectofinal.mapper.ClienteMapper.mapToClienteDTO(com.besisoft.proyectofinal.entity.Cliente)?vehiculos@22.21:22.30DECLARATIONm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java (2ˆ
+xcom.besisoft.proyectofinal.mapper.ClienteMapper.mapToClienteDTO(com.besisoft.proyectofinal.entity.Cliente)?v@23.12:23.13DECLARATIONm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java (2ß
+)com.besisoft.proyectofinal.dto.ClienteDTORETURN_TYPEm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java (Î
+zcom.besisoft.proyectofinal.mapper.ClienteMapper.mapToClienteDTO(com.besisoft.proyectofinal.entity.Cliente)?dto@13.19:13.22VARIABLEm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java ("
+type
+ClienteDTO"
+isFinalfalse"v
+declarationStringa<mark class="modifier"> </mark>ClienteDTO <mark class="class-field">dto</mark> = new ClienteDTO()*dto2†
+)com.besisoft.proyectofinal.dto.ClienteDTOTYPEm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java (2≠
+6com.besisoft.proyectofinal.dto.ClienteDTO.ClienteDTO()CALLm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java (%ç
+Äcom.besisoft.proyectofinal.mapper.ClienteMapper.mapToClienteDTO(com.besisoft.proyectofinal.entity.Cliente)?vehiculos@22.21:22.30VARIABLEm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java ("
+typeList<String>"
+isFinalfalse"ƒ
+declarationStringÆ<mark class="modifier"> </mark>List<String> <mark class="class-field">vehiculos</mark> = cliente.getVehiculos().stream().map(v -> v.getPatente()).collect(Collectors.toList())*	vehiculos2Ö
+java.util.ListTYPEm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java (2ê
+java.lang.StringTYPE_ARGUMENTm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java (2õ
+$java.util.stream.Collectors.toList()CALLm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java (#2È
+rcom.besisoft.proyectofinal.mapper.ClienteMapper.mapToClienteDTO(com.besisoft.proyectofinal.entity.Cliente)!clienteCALLm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java (&2Ô
+xcom.besisoft.proyectofinal.mapper.ClienteMapper.mapToClienteDTO(com.besisoft.proyectofinal.entity.Cliente)?v@23.12:23.13CALLm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java („
+rcom.besisoft.proyectofinal.mapper.ClienteMapper.mapToClienteDTO(com.besisoft.proyectofinal.entity.Cliente)!cliente	PARAMETERm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java5 (<"
+typeCliente"
+isFinalfalse"$
+declarationStringCliente cliente*cliente2†
+)com.besisoft.proyectofinal.entity.ClienteTYPEm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java- (4±
+xcom.besisoft.proyectofinal.mapper.ClienteMapper.mapToClienteDTO(com.besisoft.proyectofinal.entity.Cliente)?v@23.12:23.13VARIABLEm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java ("
+type"
+isFinalfalse"
+declarationString v*v2TYPEû
+gcom.besisoft.proyectofinal.mapper.ClienteMapper.mapToCliente(com.besisoft.proyectofinal.dto.ClienteDTO)METHODm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java (&"
+isFinalfalse"†
+declarationStringä<mark class="modifier">public </mark><mark class="modifier">static </mark>Cliente <mark class="method">mapToCliente</mark>(ClienteDTO dto)"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typeCliente*mapToCliente2™
+3com.besisoft.proyectofinal.entity.Cliente.Cliente()CALLm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java (#2ñ
+java.util.ArrayList.ArrayList()CALLm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java$$ $(/2Ú
+{com.besisoft.proyectofinal.mapper.ClienteMapper.mapToCliente(com.besisoft.proyectofinal.dto.ClienteDTO)?cliente@31.16:31.23CALLm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java   (2‚
+kcom.besisoft.proyectofinal.mapper.ClienteMapper.mapToCliente(com.besisoft.proyectofinal.dto.ClienteDTO)!dtoCALLm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java   (2Ú
+{com.besisoft.proyectofinal.mapper.ClienteMapper.mapToCliente(com.besisoft.proyectofinal.dto.ClienteDTO)?cliente@31.16:31.23CALLm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java! !(2‚
+kcom.besisoft.proyectofinal.mapper.ClienteMapper.mapToCliente(com.besisoft.proyectofinal.dto.ClienteDTO)!dtoCALLm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java! !(2Ú
+{com.besisoft.proyectofinal.mapper.ClienteMapper.mapToCliente(com.besisoft.proyectofinal.dto.ClienteDTO)?cliente@31.16:31.23CALLm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java" "(2‚
+kcom.besisoft.proyectofinal.mapper.ClienteMapper.mapToCliente(com.besisoft.proyectofinal.dto.ClienteDTO)!dtoCALLm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java" "(2Ú
+{com.besisoft.proyectofinal.mapper.ClienteMapper.mapToCliente(com.besisoft.proyectofinal.dto.ClienteDTO)?cliente@31.16:31.23CALLm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java# #(2‚
+kcom.besisoft.proyectofinal.mapper.ClienteMapper.mapToCliente(com.besisoft.proyectofinal.dto.ClienteDTO)!dtoCALLm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java#% #((2Ú
+{com.besisoft.proyectofinal.mapper.ClienteMapper.mapToCliente(com.besisoft.proyectofinal.dto.ClienteDTO)?cliente@31.16:31.23CALLm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java& &(2Á
+kcom.besisoft.proyectofinal.mapper.ClienteMapper.mapToCliente(com.besisoft.proyectofinal.dto.ClienteDTO)!dto	PARAMETERm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java2 (52˘
+{com.besisoft.proyectofinal.mapper.ClienteMapper.mapToCliente(com.besisoft.proyectofinal.dto.ClienteDTO)?cliente@31.16:31.23DECLARATIONm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java (2˚
+}com.besisoft.proyectofinal.mapper.ClienteMapper.mapToCliente(com.besisoft.proyectofinal.dto.ClienteDTO)?vehiculos@36.22:36.31DECLARATIONm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java$ $(2ß
+)com.besisoft.proyectofinal.entity.ClienteRETURN_TYPEm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java (Ë
+{com.besisoft.proyectofinal.mapper.ClienteMapper.mapToCliente(com.besisoft.proyectofinal.dto.ClienteDTO)?cliente@31.16:31.23VARIABLEm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java ("
+typeCliente"
+isFinalfalse"t
+declarationString_<mark class="modifier"> </mark>Cliente <mark class="class-field">cliente</mark> = new Cliente()*cliente2†
+)com.besisoft.proyectofinal.entity.ClienteTYPEm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java (2™
+3com.besisoft.proyectofinal.entity.Cliente.Cliente()CALLm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java (#ˇ
+}com.besisoft.proyectofinal.mapper.ClienteMapper.mapToCliente(com.besisoft.proyectofinal.dto.ClienteDTO)?vehiculos@36.22:36.31VARIABLEm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java$ $("
+typeList<Vehiculo>"
+isFinalfalse"Å
+declarationStringl<mark class="modifier"> </mark>List<Vehiculo> <mark class="class-field">vehiculos</mark> = new ArrayList<>()*	vehiculos2Ö
+java.util.ListTYPEm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java$ $(2™
+*com.besisoft.proyectofinal.entity.VehiculoTYPE_ARGUMENTm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java$ $(2ñ
+java.util.ArrayList.ArrayList()CALLm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java$$ $(/⁄
+kcom.besisoft.proyectofinal.mapper.ClienteMapper.mapToCliente(com.besisoft.proyectofinal.dto.ClienteDTO)!dto	PARAMETERm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java2 (5"
+type
+ClienteDTO"
+isFinalfalse"#
+declarationStringClienteDTO dto*dto2†
+)com.besisoft.proyectofinal.dto.ClienteDTOTYPEm
+cE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\mapper\ClienteMapper.java' (1

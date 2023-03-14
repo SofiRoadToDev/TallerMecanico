@@ -1,0 +1,58 @@
+
+qE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\RepuestoService.java“
+=com.besisoft.proyectofinal.service.interfaces.RepuestoServiceTRAIT{
+qE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\RepuestoService.java ( "8
+package-com.besisoft.proyectofinal.service.interfaces"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"q
+declarationString\<mark class="modifier">public </mark><mark class="modifier">interface </mark>RepuestoService"
+accesspublic*RepuestoService2å
+Ycom.besisoft.proyectofinal.service.interfaces.RepuestoService.buscarPorId(java.lang.Long)DECLARATION{
+qE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\RepuestoService.java (!2Ø
+Lcom.besisoft.proyectofinal.service.interfaces.RepuestoService.verRepuestos()DECLARATION{
+qE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\RepuestoService.java
+ 
+("©
+Ycom.besisoft.proyectofinal.service.interfaces.RepuestoService.buscarPorId(java.lang.Long)METHOD{
+qE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\RepuestoService.java (!"
+isFinalfalse"}
+declarationStringh<mark class="modifier"> </mark>Optional&lt;Repuesto&gt; <mark class="method">buscarPorId</mark>(Long id)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeOptional<Repuesto>*buscarPorId2æ
+\com.besisoft.proyectofinal.service.interfaces.RepuestoService.buscarPorId(java.lang.Long)!id	PARAMETER{
+qE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\RepuestoService.java' ()2ž
+java.util.OptionalRETURN_TYPE{
+qE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\RepuestoService.java (2¿
+*com.besisoft.proyectofinal.entity.RepuestoRETURN_TYPE_ARGUMENT{
+qE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\RepuestoService.java (¾
+\com.besisoft.proyectofinal.service.interfaces.RepuestoService.buscarPorId(java.lang.Long)!id	PARAMETER{
+qE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\RepuestoService.java' ()"
+typeLong"
+isFinalfalse"
+declarationStringLong id*id2“
+java.lang.LongTYPE{
+qE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\RepuestoService.java" (&®
+Lcom.besisoft.proyectofinal.service.interfaces.RepuestoService.verRepuestos()METHOD{
+qE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\RepuestoService.java
+ 
+(""
+isFinalfalse"w
+declarationStringb<mark class="modifier"> </mark>Iterable&lt;Repuesto&gt; <mark class="method">verRepuestos</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeIterable<Repuesto>*verRepuestos2ž
+java.lang.IterableRETURN_TYPE{
+qE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\RepuestoService.java
+ 
+(2¿
+*com.besisoft.proyectofinal.entity.RepuestoRETURN_TYPE_ARGUMENT{
+qE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\RepuestoService.java
+ 
+(

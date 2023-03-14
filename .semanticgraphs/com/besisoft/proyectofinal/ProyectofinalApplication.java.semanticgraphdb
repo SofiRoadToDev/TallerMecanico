@@ -1,0 +1,35 @@
+
+gE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\ProyectofinalApplication.javaÅ
+3com.besisoft.proyectofinal.ProyectofinalApplicationCLASSq
+gE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\ProyectofinalApplication.java (%"%
+packagecom.besisoft.proyectofinal"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"²
+declarationStringœ<mark class="annotation">@SpringBootApplication</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>ProyectofinalApplication"
+accesspublic*ProyectofinalApplication2Î
+Lcom.besisoft.proyectofinal.ProyectofinalApplication.main(java.lang.String[])DECLARATIONq
+gE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\ProyectofinalApplication.java (‰
+Lcom.besisoft.proyectofinal.ProyectofinalApplication.main(java.lang.String[])METHODq
+gE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\ProyectofinalApplication.java ("
+isFinalfalse"²
+declarationStringœ<mark class="modifier">public </mark><mark class="modifier">static </mark><mark class="modifier">void</mark> <mark class="method">main</mark>(String[] args)"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typevoid*main2Ì
+Qcom.besisoft.proyectofinal.ProyectofinalApplication.main(java.lang.String[])!argsCALLq
+gE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\ProyectofinalApplication.java	8 	(<2Ñ
+Qcom.besisoft.proyectofinal.ProyectofinalApplication.main(java.lang.String[])!args	PARAMETERq
+gE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\ProyectofinalApplication.java" (&2†
+voidRETURN_TYPEq
+gE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\ProyectofinalApplication.java (¯
+Qcom.besisoft.proyectofinal.ProyectofinalApplication.main(java.lang.String[])!args	PARAMETERq
+gE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\ProyectofinalApplication.java" (&"
+typeString[]"
+isFinalfalse""
+declarationStringString[] args*args2
+java.lang.String[]TYPEq
+gE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\ProyectofinalApplication.java (!

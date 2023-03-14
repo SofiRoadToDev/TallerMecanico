@@ -1,0 +1,42 @@
+
+kE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\repository\ClienteRepository.javaÄ
+
+7com.besisoft.proyectofinal.repository.ClienteRepositoryTRAITu
+kE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\repository\ClienteRepository.java (""0
+package%com.besisoft.proyectofinal.repository"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"∏
+declarationString¢<mark class="modifier">public </mark><mark class="modifier">interface </mark>ClienteRepository<mark class="modifier"> extends </mark>CrudRepository<Cliente, Long>"
+accesspublic*ClienteRepository2Ê
+`com.besisoft.proyectofinal.repository.ClienteRepository.findByCorreoElectonico(java.lang.String)DECLARATIONu
+kE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\repository\ClienteRepository.java	 	(,2≥
+2org.springframework.data.repository.CrudRepositoryEXTENDu
+kE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\repository\ClienteRepository.java+ (92∏
+)com.besisoft.proyectofinal.entity.ClienteEXTEND_TYPE_ARGUMENTu
+kE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\repository\ClienteRepository.java: (A2ù
+java.lang.LongEXTEND_TYPE_ARGUMENTu
+kE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\repository\ClienteRepository.javaB (Fª
+`com.besisoft.proyectofinal.repository.ClienteRepository.findByCorreoElectonico(java.lang.String)METHODu
+kE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\repository\ClienteRepository.java	 	(,"
+isFinalfalse"å
+declarationStringw<mark class="modifier"> </mark>Optional&lt;Cliente&gt; <mark class="method">findByCorreoElectonico</mark>(String email)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeOptional<Cliente>*findByCorreoElectonico2Í
+fcom.besisoft.proyectofinal.repository.ClienteRepository.findByCorreoElectonico(java.lang.String)!email	PARAMETERu
+kE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\repository\ClienteRepository.java	4 	(92ò
+java.util.OptionalRETURN_TYPEu
+kE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\repository\ClienteRepository.java	 	(2∏
+)com.besisoft.proyectofinal.entity.ClienteRETURN_TYPE_ARGUMENTu
+kE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\repository\ClienteRepository.java	 	(»
+fcom.besisoft.proyectofinal.repository.ClienteRepository.findByCorreoElectonico(java.lang.String)!email	PARAMETERu
+kE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\repository\ClienteRepository.java	4 	(9"
+typeString"
+isFinalfalse"!
+declarationStringString email*email2è
+java.lang.StringTYPEu
+kE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\repository\ClienteRepository.java	- 	(3

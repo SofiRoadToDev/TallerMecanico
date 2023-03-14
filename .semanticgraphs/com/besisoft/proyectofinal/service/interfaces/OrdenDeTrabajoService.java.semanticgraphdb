@@ -1,0 +1,92 @@
+
+wE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\OrdenDeTrabajoService.javaü
+
+Ccom.besisoft.proyectofinal.service.interfaces.OrdenDeTrabajoServiceTRAITÅ
+wE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\OrdenDeTrabajoService.java (&"8
+package-com.besisoft.proyectofinal.service.interfaces"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"w
+declarationStringb<mark class="modifier">public </mark><mark class="modifier">interface </mark>OrdenDeTrabajoService"
+accesspublic*OrdenDeTrabajoService2Ú
+_com.besisoft.proyectofinal.service.interfaces.OrdenDeTrabajoService.buscarPorId(java.lang.Long)DECLARATIONÅ
+wE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\OrdenDeTrabajoService.java (%2õ
+ácom.besisoft.proyectofinal.service.interfaces.OrdenDeTrabajoService.crearOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)DECLARATIONÅ
+wE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\OrdenDeTrabajoService.java
+ 
+($2†
+åcom.besisoft.proyectofinal.service.interfaces.OrdenDeTrabajoService.actualizarOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)DECLARATIONÅ
+wE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\OrdenDeTrabajoService.java ()ﬁ
+_com.besisoft.proyectofinal.service.interfaces.OrdenDeTrabajoService.buscarPorId(java.lang.Long)METHODÅ
+wE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\OrdenDeTrabajoService.java (%"
+isFinalfalse"Å
+declarationStringl<mark class="modifier"> </mark>Optional&lt;OrdenTrabajo&gt; <mark class="method">buscarPorId</mark>(Long id)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeOptional<OrdenTrabajo>*buscarPorId2Û
+bcom.besisoft.proyectofinal.service.interfaces.OrdenDeTrabajoService.buscarPorId(java.lang.Long)!id	PARAMETERÅ
+wE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\OrdenDeTrabajoService.java+ (-2•
+java.util.OptionalRETURN_TYPEÅ
+wE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\OrdenDeTrabajoService.java (2 
+.com.besisoft.proyectofinal.entity.OrdenTrabajoRETURN_TYPE_ARGUMENTÅ
+wE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\OrdenDeTrabajoService.java (“
+bcom.besisoft.proyectofinal.service.interfaces.OrdenDeTrabajoService.buscarPorId(java.lang.Long)!id	PARAMETERÅ
+wE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\OrdenDeTrabajoService.java+ (-"
+typeLong"
+isFinalfalse"
+declarationStringLong id*id2ö
+java.lang.LongTYPEÅ
+wE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\OrdenDeTrabajoService.java& (*ë
+ácom.besisoft.proyectofinal.service.interfaces.OrdenDeTrabajoService.crearOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)METHODÅ
+wE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\OrdenDeTrabajoService.java
+ 
+($"
+isFinalfalse"ã
+declarationStringv<mark class="modifier"> </mark>OrdenTrabajo <mark class="method">crearOrdenDeTrabajo</mark>(OrdenTrabajo ordenTrabajo)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeOrdenTrabajo*crearOrdenDeTrabajo2¶
+îcom.besisoft.proyectofinal.service.interfaces.OrdenDeTrabajoService.crearOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)!ordenTrabajo	PARAMETERÅ
+wE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\OrdenDeTrabajoService.java
+2 
+(>2¡
+.com.besisoft.proyectofinal.entity.OrdenTrabajoRETURN_TYPEÅ
+wE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\OrdenDeTrabajoService.java
+ 
+(…
+îcom.besisoft.proyectofinal.service.interfaces.OrdenDeTrabajoService.crearOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)!ordenTrabajo	PARAMETERÅ
+wE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\OrdenDeTrabajoService.java
+2 
+(>"
+typeOrdenTrabajo"
+isFinalfalse".
+declarationStringOrdenTrabajo ordenTrabajo*ordenTrabajo2∫
+.com.besisoft.proyectofinal.entity.OrdenTrabajoTYPEÅ
+wE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\OrdenDeTrabajoService.java
+% 
+(1•
+åcom.besisoft.proyectofinal.service.interfaces.OrdenDeTrabajoService.actualizarOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)METHODÅ
+wE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\OrdenDeTrabajoService.java ()"
+isFinalfalse"ê
+declarationString{<mark class="modifier"> </mark>OrdenTrabajo <mark class="method">actualizarOrdenDeTrabajo</mark>(OrdenTrabajo ordenTrabajo)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeOrdenTrabajo*actualizarOrdenDeTrabajo2´
+ôcom.besisoft.proyectofinal.service.interfaces.OrdenDeTrabajoService.actualizarOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)!ordenTrabajo	PARAMETERÅ
+wE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\OrdenDeTrabajoService.java7 (C2¡
+.com.besisoft.proyectofinal.entity.OrdenTrabajoRETURN_TYPEÅ
+wE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\OrdenDeTrabajoService.java (Œ
+ôcom.besisoft.proyectofinal.service.interfaces.OrdenDeTrabajoService.actualizarOrdenDeTrabajo(com.besisoft.proyectofinal.entity.OrdenTrabajo)!ordenTrabajo	PARAMETERÅ
+wE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\OrdenDeTrabajoService.java7 (C"
+typeOrdenTrabajo"
+isFinalfalse".
+declarationStringOrdenTrabajo ordenTrabajo*ordenTrabajo2∫
+.com.besisoft.proyectofinal.entity.OrdenTrabajoTYPEÅ
+wE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\OrdenDeTrabajoService.java* (6

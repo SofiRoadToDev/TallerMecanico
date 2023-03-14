@@ -1,0 +1,64 @@
+
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Persona.javaÓ	
+)com.besisoft.proyectofinal.entity.PersonaCLASSg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Persona.java
+ 
+(",
+package!com.besisoft.proyectofinal.entity"
+isFinalfalse"
+inner classfalse"
+
+isAbstracttrue"Ì
+declarationString◊<mark class="annotation">@MappedSuperclass</mark> <br><mark class="annotation">@Data</mark> <br><mark class="modifier">public </mark><mark class="modifier">abstract </mark><mark class="modifier">class </mark>Persona"
+accesspublic*Persona2∞
+8com.besisoft.proyectofinal.entity.Persona?id@13.17:13.19DECLARATIONg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Persona.java (2∑
+?com.besisoft.proyectofinal.entity.Persona?domicilio@16.23:16.32DECLARATIONg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Persona.java ( 2∂
+>com.besisoft.proyectofinal.entity.Persona?apellido@21.19:21.27DECLARATIONg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Persona.java (2µ
+=com.besisoft.proyectofinal.entity.Persona?nombres@26.19:26.26DECLARATIONg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Persona.java (î
+8com.besisoft.proyectofinal.entity.Persona?id@13.17:13.19VARIABLEg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Persona.java ("
+isFinalfalse"
+typeLong"ê
+declarationString{<mark class="modifier">private </mark>Long <mark class="class-field">id</mark> = GenerationType.IDENTITY)
+private Long id;"
+isStaticfalse"
+accessprivate*id2á
+javax.persistence.LongTYPEg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Persona.java (ö
+?com.besisoft.proyectofinal.entity.Persona?domicilio@16.23:16.32VARIABLEg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Persona.java ( "
+isFinalfalse"
+type	Domicilio"o
+declarationStringZ<mark class="modifier">private </mark>Domicilio <mark class="class-field">domicilio</mark>"
+isStaticfalse"
+accessprivate*	domicilio2ú
++com.besisoft.proyectofinal.entity.DomicilioTYPEg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Persona.java (í
+>com.besisoft.proyectofinal.entity.Persona?apellido@21.19:21.27VARIABLEg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Persona.java ("
+isFinalfalse"
+typeString"˛
+declarationStringË<mark class="modifier">private </mark>String <mark class="class-field">apellido</mark> = 80)
+@Length(max = 100, message = "El maximo de caracteres es 80")
+@NotBlank(message = "El apellido es obligatorio")
+private String apellido;"
+isStaticfalse"
+accessprivate*apellido2â
+javax.persistence.StringTYPEg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Persona.java (é
+=com.besisoft.proyectofinal.entity.Persona?nombres@26.19:26.26VARIABLEg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Persona.java ("
+isFinalfalse"
+typeString"¸
+declarationStringÊ<mark class="modifier">private </mark>String <mark class="class-field">nombres</mark> = 100)
+@Length(max = 100, message = "El maximo de caracteres es 100")
+@NotBlank(message = "El nombre es obligatorio")
+private String nombres;"
+isStaticfalse"
+accessprivate*nombres2â
+javax.persistence.StringTYPEg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Persona.java (

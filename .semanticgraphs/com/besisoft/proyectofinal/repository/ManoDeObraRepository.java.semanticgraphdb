@@ -1,0 +1,17 @@
+
+nE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\repository\ManoDeObraRepository.java²
+:com.besisoft.proyectofinal.repository.ManoDeObraRepositoryTRAITx
+nE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\repository\ManoDeObraRepository.java (%"0
+package%com.besisoft.proyectofinal.repository"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"¾
+declarationString¨<mark class="modifier">public </mark><mark class="modifier">interface </mark>ManoDeObraRepository<mark class="modifier"> extends </mark>CrudRepository<ManoDeObra, Long>"
+accesspublic*ManoDeObraRepository2¶
+2org.springframework.data.repository.CrudRepositoryEXTENDx
+nE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\repository\ManoDeObraRepository.java. (<2¾
+,com.besisoft.proyectofinal.entity.ManoDeObraEXTEND_TYPE_ARGUMENTx
+nE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\repository\ManoDeObraRepository.java= (G2 
+java.lang.LongEXTEND_TYPE_ARGUMENTx
+nE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\repository\ManoDeObraRepository.javaH (L

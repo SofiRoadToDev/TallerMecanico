@@ -1,0 +1,50 @@
+
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Mecanico.java
+*com.besisoft.proyectofinal.entity.MecanicoCLASSh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Mecanico.java (",
+package!com.besisoft.proyectofinal.entity"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"Ù
+declarationStringﬁ<mark class="annotation">@Entity</mark> <br><mark class="annotation">@Getter</mark> <br><mark class="annotation">@Setter</mark> <br><mark class="annotation">@NoArgsConstructor</mark> <br><mark class="annotation">@AllArgsConstructor</mark> <br><mark class="annotation">@Builder</mark> <br><mark class="annotation">@Table(name = "mecanicos")</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>Mecanico<mark class="modifier"> extends </mark>Persona"
+accesspublic*Mecanico2∂
+=com.besisoft.proyectofinal.entity.Mecanico?activo@18.22:18.28DECLARATIONh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Mecanico.java (2º
+Ccom.besisoft.proyectofinal.entity.Mecanico?especialidad@20.19:20.31DECLARATIONh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Mecanico.java (2∫
+Acom.besisoft.proyectofinal.entity.Mecanico?manoDeObra@22.29:22.39DECLARATIONh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Mecanico.java ('2ù
+)com.besisoft.proyectofinal.entity.PersonaEXTENDh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Mecanico.java (%˘
+=com.besisoft.proyectofinal.entity.Mecanico?activo@18.22:18.28VARIABLEh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Mecanico.java ("
+isFinalfalse"
+type	Character"l
+declarationStringW<mark class="modifier">private </mark>Character <mark class="class-field">activo</mark>"
+isStaticfalse"
+accessprivate*activo2Ç
+lombok.CharacterTYPEh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Mecanico.java (Å
+Ccom.besisoft.proyectofinal.entity.Mecanico?especialidad@20.19:20.31VARIABLEh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Mecanico.java ("
+isFinalfalse"
+typeString"o
+declarationStringZ<mark class="modifier">private </mark>String <mark class="class-field">especialidad</mark>"
+isStaticfalse"
+accessprivate*especialidad2
+lombok.StringTYPEh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Mecanico.java (Ò
+Acom.besisoft.proyectofinal.entity.Mecanico?manoDeObra@22.29:22.39VARIABLEh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Mecanico.java ('"
+isFinalfalse"
+typeList<ManoDeObra>"¨
+declarationStringñ<mark class="modifier">private </mark>List<ManoDeObra> <mark class="class-field">manoDeObra</mark> = "mecanico")
+private List<ManoDeObra> manoDeObra;"
+isStaticfalse"
+accessprivate*
+manoDeObra2Ä
+java.util.ListTYPEh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Mecanico.java (2ß
+,com.besisoft.proyectofinal.entity.ManoDeObraTYPE_ARGUMENTh
+^E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Mecanico.java (

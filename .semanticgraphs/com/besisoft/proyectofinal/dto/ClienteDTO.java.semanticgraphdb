@@ -1,0 +1,137 @@
+
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\dto\ClienteDTO.javaö
+)com.besisoft.proyectofinal.dto.ClienteDTOCLASSg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\dto\ClienteDTO.java	 	(")
+packagecom.besisoft.proyectofinal.dto"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"í
+declarationString}<mark class="annotation">@Data</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>ClienteDTO"
+accesspublic*
+ClienteDTO2∞
+8com.besisoft.proyectofinal.dto.ClienteDTO?id@11.14:11.16DECLARATIONg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\dto\ClienteDTO.java (2∂
+>com.besisoft.proyectofinal.dto.ClienteDTO?apellido@13.16:13.24DECLARATIONg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\dto\ClienteDTO.java (2¥
+<com.besisoft.proyectofinal.dto.ClienteDTO?nombre@15.16:15.22DECLARATIONg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\dto\ClienteDTO.java (2≥
+;com.besisoft.proyectofinal.dto.ClienteDTO?email@17.16:17.21DECLARATIONg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\dto\ClienteDTO.java (2µ
+=com.besisoft.proyectofinal.dto.ClienteDTO?celular@19.16:19.23DECLARATIONg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\dto\ClienteDTO.java (2≥
+;com.besisoft.proyectofinal.dto.ClienteDTO?calle@21.16:21.21DECLARATIONg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\dto\ClienteDTO.java (2∑
+?com.besisoft.proyectofinal.dto.ClienteDTO?localidad@23.16:23.25DECLARATIONg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\dto\ClienteDTO.java (2∫
+Bcom.besisoft.proyectofinal.dto.ClienteDTO?departamento@25.16:25.28DECLARATIONg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\dto\ClienteDTO.java (2¥
+<com.besisoft.proyectofinal.dto.ClienteDTO?numero@27.16:27.22DECLARATIONg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\dto\ClienteDTO.java (2≤
+:com.besisoft.proyectofinal.dto.ClienteDTO?piso@29.16:29.20DECLARATIONg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\dto\ClienteDTO.java (2∑
+?com.besisoft.proyectofinal.dto.ClienteDTO?vehiculos@31.22:31.31DECLARATIONg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\dto\ClienteDTO.java (›
+8com.besisoft.proyectofinal.dto.ClienteDTO?id@11.14:11.16VARIABLEg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\dto\ClienteDTO.java ("
+isFinalfalse"
+typeLong"c
+declarationStringN<mark class="modifier">private </mark>Long <mark class="class-field">id</mark>"
+isStaticfalse"
+accessprivate*id2
+java.lang.LongTYPEg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\dto\ClienteDTO.java	 (ˆ
+>com.besisoft.proyectofinal.dto.ClienteDTO?apellido@13.16:13.24VARIABLEg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\dto\ClienteDTO.java ("
+isFinalfalse"
+typeString"k
+declarationStringV<mark class="modifier">private </mark>String <mark class="class-field">apellido</mark>"
+isStaticfalse"
+accessprivate*apellido2Å
+java.lang.StringTYPEg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\dto\ClienteDTO.java	 (
+<com.besisoft.proyectofinal.dto.ClienteDTO?nombre@15.16:15.22VARIABLEg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\dto\ClienteDTO.java ("
+isFinalfalse"
+typeString"i
+declarationStringT<mark class="modifier">private </mark>String <mark class="class-field">nombre</mark>"
+isStaticfalse"
+accessprivate*nombre2Å
+java.lang.StringTYPEg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\dto\ClienteDTO.java	 (Ì
+;com.besisoft.proyectofinal.dto.ClienteDTO?email@17.16:17.21VARIABLEg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\dto\ClienteDTO.java ("
+isFinalfalse"
+typeString"h
+declarationStringS<mark class="modifier">private </mark>String <mark class="class-field">email</mark>"
+isStaticfalse"
+accessprivate*email2Å
+java.lang.StringTYPEg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\dto\ClienteDTO.java	 (Û
+=com.besisoft.proyectofinal.dto.ClienteDTO?celular@19.16:19.23VARIABLEg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\dto\ClienteDTO.java ("
+isFinalfalse"
+typeString"j
+declarationStringU<mark class="modifier">private </mark>String <mark class="class-field">celular</mark>"
+isStaticfalse"
+accessprivate*celular2Å
+java.lang.StringTYPEg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\dto\ClienteDTO.java	 (Ì
+;com.besisoft.proyectofinal.dto.ClienteDTO?calle@21.16:21.21VARIABLEg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\dto\ClienteDTO.java ("
+isFinalfalse"
+typeString"h
+declarationStringS<mark class="modifier">private </mark>String <mark class="class-field">calle</mark>"
+isStaticfalse"
+accessprivate*calle2Å
+java.lang.StringTYPEg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\dto\ClienteDTO.java	 (˘
+?com.besisoft.proyectofinal.dto.ClienteDTO?localidad@23.16:23.25VARIABLEg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\dto\ClienteDTO.java ("
+isFinalfalse"
+typeString"l
+declarationStringW<mark class="modifier">private </mark>String <mark class="class-field">localidad</mark>"
+isStaticfalse"
+accessprivate*	localidad2Å
+java.lang.StringTYPEg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\dto\ClienteDTO.java	 (Ç
+Bcom.besisoft.proyectofinal.dto.ClienteDTO?departamento@25.16:25.28VARIABLEg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\dto\ClienteDTO.java ("
+isFinalfalse"
+typeString"o
+declarationStringZ<mark class="modifier">private </mark>String <mark class="class-field">departamento</mark>"
+isStaticfalse"
+accessprivate*departamento2Å
+java.lang.StringTYPEg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\dto\ClienteDTO.java	 (
+<com.besisoft.proyectofinal.dto.ClienteDTO?numero@27.16:27.22VARIABLEg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\dto\ClienteDTO.java ("
+isFinalfalse"
+typeString"i
+declarationStringT<mark class="modifier">private </mark>String <mark class="class-field">numero</mark>"
+isStaticfalse"
+accessprivate*numero2Å
+java.lang.StringTYPEg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\dto\ClienteDTO.java	 (Í
+:com.besisoft.proyectofinal.dto.ClienteDTO?piso@29.16:29.20VARIABLEg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\dto\ClienteDTO.java ("
+isFinalfalse"
+typeString"g
+declarationStringR<mark class="modifier">private </mark>String <mark class="class-field">piso</mark>"
+isStaticfalse"
+accessprivate*piso2Å
+java.lang.StringTYPEg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\dto\ClienteDTO.java	 (∏
+?com.besisoft.proyectofinal.dto.ClienteDTO?vehiculos@31.22:31.31VARIABLEg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\dto\ClienteDTO.java ("
+isFinalfalse"
+typeList<String>"á
+declarationStringr<mark class="modifier">private </mark>List<String> <mark class="class-field">vehiculos</mark> = new ArrayList<>();"
+isStaticfalse"
+accessprivate*	vehiculos2
+java.util.ListTYPEg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\dto\ClienteDTO.java	 (2ä
+java.lang.StringTYPE_ARGUMENTg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\dto\ClienteDTO.java (2ê
+java.util.ArrayList.ArrayList()CALLg
+]E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\dto\ClienteDTO.java$ (/

@@ -1,0 +1,32 @@
+
+hE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\EstadoOrdenTrabajo.javaç	
+4com.besisoft.proyectofinal.entity.EstadoOrdenTrabajoENUMr
+hE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\EstadoOrdenTrabajo.java ("J
+declarationString5<mark class="modifier">enum </mark>EstadoOrdenTrabajo*EstadoOrdenTrabajo2¾
+;com.besisoft.proyectofinal.entity.EstadoOrdenTrabajo?CREADADECLARATIONr
+hE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\EstadoOrdenTrabajo.java (
+2Å
+Bcom.besisoft.proyectofinal.entity.EstadoOrdenTrabajo?EN_REPARACIONDECLARATIONr
+hE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\EstadoOrdenTrabajo.java (2Å
+Bcom.besisoft.proyectofinal.entity.EstadoOrdenTrabajo?PARA_FACTURARDECLARATIONr
+hE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\EstadoOrdenTrabajo.java (2Á
+>com.besisoft.proyectofinal.entity.EstadoOrdenTrabajo?FACTURADADECLARATIONr
+hE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\EstadoOrdenTrabajo.java (2¿
+<com.besisoft.proyectofinal.entity.EstadoOrdenTrabajo?CERRADADECLARATIONr
+hE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\EstadoOrdenTrabajo.java (Î
+;com.besisoft.proyectofinal.entity.EstadoOrdenTrabajo?CREADAVALUEr
+hE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\EstadoOrdenTrabajo.java (
+"
+enumtrue*CREADAÜ
+Bcom.besisoft.proyectofinal.entity.EstadoOrdenTrabajo?EN_REPARACIONVALUEr
+hE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\EstadoOrdenTrabajo.java ("
+enumtrue*EN_REPARACIONÜ
+Bcom.besisoft.proyectofinal.entity.EstadoOrdenTrabajo?PARA_FACTURARVALUEr
+hE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\EstadoOrdenTrabajo.java ("
+enumtrue*PARA_FACTURARÔ
+>com.besisoft.proyectofinal.entity.EstadoOrdenTrabajo?FACTURADAVALUEr
+hE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\EstadoOrdenTrabajo.java ("
+enumtrue*	FACTURADAÐ
+<com.besisoft.proyectofinal.entity.EstadoOrdenTrabajo?CERRADAVALUEr
+hE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\EstadoOrdenTrabajo.java ("
+enumtrue*CERRADA

@@ -1,0 +1,44 @@
+
+sE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\exceptions\VehiculoNotFoundException.javaÕ
+?com.besisoft.proyectofinal.exceptions.VehiculoNotFoundExceptionCLASS}
+sE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\exceptions\VehiculoNotFoundException.java (&"0
+package%com.besisoft.proyectofinal.exceptions"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"Ø
+declarationStringô<mark class="modifier">public </mark><mark class="modifier">class </mark>VehiculoNotFoundException<mark class="modifier"> extends </mark>RuntimeException"
+accesspublic*VehiculoNotFoundException2è
+Äcom.besisoft.proyectofinal.exceptions.VehiculoNotFoundException.VehiculoNotFoundException(java.lang.String, java.lang.Throwable)DECLARATION}
+sE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\exceptions\VehiculoNotFoundException.java ($2£
+java.lang.RuntimeExceptionEXTEND}
+sE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\exceptions\VehiculoNotFoundException.java/ (?¯
+Äcom.besisoft.proyectofinal.exceptions.VehiculoNotFoundException.VehiculoNotFoundException(java.lang.String, java.lang.Throwable)CONSTRUCTOR}
+sE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\exceptions\VehiculoNotFoundException.java ($"Õ
+declarationString∑<mark class="modifier">public </mark><mark class="method">VehiculoNotFoundException</mark>(String message<mark class="modifier"><mark class="modifier">,</mark></mark> Throwable cause)*VehiculoNotFoundException2Ÿ
+Rjava.lang.RuntimeException.RuntimeException(java.lang.String, java.lang.Throwable)CALL}
+sE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\exceptions\VehiculoNotFoundException.java (2ê
+àcom.besisoft.proyectofinal.exceptions.VehiculoNotFoundException.VehiculoNotFoundException(java.lang.String, java.lang.Throwable)!messageCALL}
+sE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\exceptions\VehiculoNotFoundException.java (2é
+Ücom.besisoft.proyectofinal.exceptions.VehiculoNotFoundException.VehiculoNotFoundException(java.lang.String, java.lang.Throwable)!causeCALL}
+sE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\exceptions\VehiculoNotFoundException.java (2ï
+àcom.besisoft.proyectofinal.exceptions.VehiculoNotFoundException.VehiculoNotFoundException(java.lang.String, java.lang.Throwable)!message	PARAMETER}
+sE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\exceptions\VehiculoNotFoundException.java, (32ì
+Ücom.besisoft.proyectofinal.exceptions.VehiculoNotFoundException.VehiculoNotFoundException(java.lang.String, java.lang.Throwable)!cause	PARAMETER}
+sE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\exceptions\VehiculoNotFoundException.java? (D2Õ
+?com.besisoft.proyectofinal.exceptions.VehiculoNotFoundExceptionRETURN_TYPE}
+sE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\exceptions\VehiculoNotFoundException.java ($ˇ
+àcom.besisoft.proyectofinal.exceptions.VehiculoNotFoundException.VehiculoNotFoundException(java.lang.String, java.lang.Throwable)!message	PARAMETER}
+sE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\exceptions\VehiculoNotFoundException.java, (3"
+typeString"
+isFinalfalse"#
+declarationStringString message*message2ó
+java.lang.StringTYPE}
+sE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\exceptions\VehiculoNotFoundException.java% (+Ç
+Ücom.besisoft.proyectofinal.exceptions.VehiculoNotFoundException.VehiculoNotFoundException(java.lang.String, java.lang.Throwable)!cause	PARAMETER}
+sE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\exceptions\VehiculoNotFoundException.java? (D"
+type	Throwable"
+isFinalfalse"$
+declarationStringThrowable cause*cause2ö
+java.lang.ThrowableTYPE}
+sE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\exceptions\VehiculoNotFoundException.java5 (>

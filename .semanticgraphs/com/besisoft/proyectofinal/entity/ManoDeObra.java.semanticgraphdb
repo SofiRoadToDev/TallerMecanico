@@ -1,0 +1,71 @@
+
+`E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\ManoDeObra.java
+,com.besisoft.proyectofinal.entity.ManoDeObraCLASSj
+`E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\ManoDeObra.java (",
+package!com.besisoft.proyectofinal.entity"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"â
+declarationStringÛ<mark class="annotation">@Entity</mark> <br><mark class="annotation">@Getter</mark> <br><mark class="annotation">@Setter</mark> <br><mark class="annotation">@NoArgsConstructor</mark> <br><mark class="annotation">@AllArgsConstructor</mark> <br><mark class="annotation">@Builder</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>ManoDeObra"
+accesspublic*
+ManoDeObra2∂
+;com.besisoft.proyectofinal.entity.ManoDeObra?id@16.17:16.19DECLARATIONj
+`E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\ManoDeObra.java (2æ
+Ccom.besisoft.proyectofinal.entity.ManoDeObra?duracionHs@19.17:19.27DECLARATIONj
+`E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\ManoDeObra.java (2º
+Acom.besisoft.proyectofinal.entity.ManoDeObra?mecanico@23.21:23.29DECLARATIONj
+`E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\ManoDeObra.java (2ª
+@com.besisoft.proyectofinal.entity.ManoDeObra?detalle@25.19:25.26DECLARATIONj
+`E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\ManoDeObra.java (2¿
+Ecom.besisoft.proyectofinal.entity.ManoDeObra?ordenTrabajo@28.25:28.37DECLARATIONj
+`E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\ManoDeObra.java (%ë
+;com.besisoft.proyectofinal.entity.ManoDeObra?id@16.17:16.19VARIABLEj
+`E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\ManoDeObra.java ("
+isFinalfalse"
+typeLong"ê
+declarationString{<mark class="modifier">private </mark>Long <mark class="class-field">id</mark> = GenerationType.IDENTITY)
+private Long id;"
+isStaticfalse"
+accessprivate*id2
+lombok.LongTYPEj
+`E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\ManoDeObra.java (ˇ
+Ccom.besisoft.proyectofinal.entity.ManoDeObra?duracionHs@19.17:19.27VARIABLEj
+`E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\ManoDeObra.java ("
+isFinalfalse"
+typeDate"k
+declarationStringV<mark class="modifier">private </mark>Date <mark class="class-field">duracionHs</mark>"
+isStaticfalse"
+accessprivate*
+duracionHs2Ç
+java.util.DateTYPEj
+`E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\ManoDeObra.java (Ã
+Acom.besisoft.proyectofinal.entity.ManoDeObra?mecanico@23.21:23.29VARIABLEj
+`E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\ManoDeObra.java ("
+isFinalfalse"
+typeMecanico"õ
+declarationStringÖ<mark class="modifier">private </mark>Mecanico <mark class="class-field">mecanico</mark> = "mecanico_id")
+private Mecanico mecanico;"
+isStaticfalse"
+accessprivate*mecanico2û
+*com.besisoft.proyectofinal.entity.MecanicoTYPEj
+`E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\ManoDeObra.java (˘
+@com.besisoft.proyectofinal.entity.ManoDeObra?detalle@25.19:25.26VARIABLEj
+`E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\ManoDeObra.java ("
+isFinalfalse"
+typeString"j
+declarationStringU<mark class="modifier">private </mark>String <mark class="class-field">detalle</mark>"
+isStaticfalse"
+accessprivate*detalle2Å
+lombok.StringTYPEj
+`E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\ManoDeObra.java (Ò
+Ecom.besisoft.proyectofinal.entity.ManoDeObra?ordenTrabajo@28.25:28.37VARIABLEj
+`E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\ManoDeObra.java (%"
+isFinalfalse"
+typeOrdenTrabajo"∞
+declarationStringö<mark class="modifier">private </mark>OrdenTrabajo <mark class="class-field">ordenTrabajo</mark> = "orden_trabajo_id")
+private OrdenTrabajo ordenTrabajo;"
+isStaticfalse"
+accessprivate*ordenTrabajo2¢
+.com.besisoft.proyectofinal.entity.OrdenTrabajoTYPEj
+`E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\ManoDeObra.java (

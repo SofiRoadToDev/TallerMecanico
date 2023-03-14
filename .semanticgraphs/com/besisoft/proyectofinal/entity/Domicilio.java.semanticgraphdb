@@ -1,0 +1,89 @@
+
+_E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Domicilio.java–
++com.besisoft.proyectofinal.entity.DomicilioCLASSi
+_E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Domicilio.java	 	(",
+package!com.besisoft.proyectofinal.entity"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"Â
+declarationString¬<mark class="annotation">@Embeddable</mark> <br><mark class="annotation">@Data</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>Domicilio"
+accesspublic*	Domicilio2·
+=com.besisoft.proyectofinal.entity.Domicilio?calle@11.19:11.24DECLARATIONi
+_E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Domicilio.java (2¾
+Dcom.besisoft.proyectofinal.entity.Domicilio?codigoPostal@13.19:13.31DECLARATIONi
+_E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Domicilio.java (2¾
+Dcom.besisoft.proyectofinal.entity.Domicilio?departamento@15.19:15.31DECLARATIONi
+_E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Domicilio.java (2»
+Acom.besisoft.proyectofinal.entity.Domicilio?localidad@17.20:17.29DECLARATIONi
+_E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Domicilio.java (2¸
+>com.besisoft.proyectofinal.entity.Domicilio?numero@19.19:19.25DECLARATIONi
+_E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Domicilio.java (2¶
+<com.besisoft.proyectofinal.entity.Domicilio?piso@21.19:21.23DECLARATIONi
+_E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Domicilio.java (2¹
+?com.besisoft.proyectofinal.entity.Domicilio?celular@24.19:24.26DECLARATIONi
+_E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Domicilio.java (ó
+=com.besisoft.proyectofinal.entity.Domicilio?calle@11.19:11.24VARIABLEi
+_E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Domicilio.java ("
+isFinalfalse"
+typeString"h
+declarationStringS<mark class="modifier">private </mark>String <mark class="class-field">calle</mark>"
+isStaticfalse"
+accessprivate*calle2ƒ
+java.lang.StringTYPEi
+_E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Domicilio.java (ˆ
+Dcom.besisoft.proyectofinal.entity.Domicilio?codigoPostal@13.19:13.31VARIABLEi
+_E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Domicilio.java ("
+isFinalfalse"
+typeString"o
+declarationStringZ<mark class="modifier">private </mark>String <mark class="class-field">codigoPostal</mark>"
+isStaticfalse"
+accessprivate*codigoPostal2ƒ
+java.lang.StringTYPEi
+_E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Domicilio.java (ˆ
+Dcom.besisoft.proyectofinal.entity.Domicilio?departamento@15.19:15.31VARIABLEi
+_E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Domicilio.java ("
+isFinalfalse"
+typeString"o
+declarationStringZ<mark class="modifier">private </mark>String <mark class="class-field">departamento</mark>"
+isStaticfalse"
+accessprivate*departamento2ƒ
+java.lang.StringTYPEi
+_E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Domicilio.java (ÿ
+Acom.besisoft.proyectofinal.entity.Domicilio?localidad@17.20:17.29VARIABLEi
+_E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Domicilio.java ("
+isFinalfalse"
+typeString"l
+declarationStringW<mark class="modifier">private </mark>String <mark class="class-field">localidad</mark>"
+isStaticfalse"
+accessprivate*	localidad2ƒ
+java.lang.StringTYPEi
+_E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Domicilio.java (ö
+>com.besisoft.proyectofinal.entity.Domicilio?numero@19.19:19.25VARIABLEi
+_E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Domicilio.java ("
+isFinalfalse"
+typeString"i
+declarationStringT<mark class="modifier">private </mark>String <mark class="class-field">numero</mark>"
+isStaticfalse"
+accessprivate*numero2ƒ
+java.lang.StringTYPEi
+_E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Domicilio.java (ð
+<com.besisoft.proyectofinal.entity.Domicilio?piso@21.19:21.23VARIABLEi
+_E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Domicilio.java ("
+isFinalfalse"
+typeString"g
+declarationStringR<mark class="modifier">private </mark>String <mark class="class-field">piso</mark>"
+isStaticfalse"
+accessprivate*piso2ƒ
+java.lang.StringTYPEi
+_E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Domicilio.java (™
+?com.besisoft.proyectofinal.entity.Domicilio?celular@24.19:24.26VARIABLEi
+_E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Domicilio.java ("
+isFinalfalse"
+typeString"‰
+declarationStringt<mark class="modifier">private </mark>String <mark class="class-field">celular</mark> = 15)
+private String celular;"
+isStaticfalse"
+accessprivate*celular2ƒ
+java.lang.StringTYPEi
+_E:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\entity\Domicilio.java (

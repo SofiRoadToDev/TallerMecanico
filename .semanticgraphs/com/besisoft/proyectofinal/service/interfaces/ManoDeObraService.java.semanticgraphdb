@@ -1,0 +1,107 @@
+
+sE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\ManoDeObraService.javaˆ	
+?com.besisoft.proyectofinal.service.interfaces.ManoDeObraServiceTRAIT}
+sE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\ManoDeObraService.java (""8
+package-com.besisoft.proyectofinal.service.interfaces"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"s
+declarationString^<mark class="modifier">public </mark><mark class="modifier">interface </mark>ManoDeObraService"
+accesspublic*ManoDeObraService2È
+[com.besisoft.proyectofinal.service.interfaces.ManoDeObraService.buscarPorId(java.lang.Long)DECLARATION}
+sE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\ManoDeObraService.java (#2ã
+}com.besisoft.proyectofinal.service.interfaces.ManoDeObraService.crearManoDeObra(com.besisoft.proyectofinal.entity.ManoDeObra)DECLARATION}
+sE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\ManoDeObraService.java
+ 
+(2°
+ícom.besisoft.proyectofinal.service.interfaces.ManoDeObraService.actualizarManoDeObra(com.besisoft.proyectofinal.entity.ManoDeObra, java.lang.Long)DECLARATION}
+sE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\ManoDeObraService.java (#ª
+[com.besisoft.proyectofinal.service.interfaces.ManoDeObraService.buscarPorId(java.lang.Long)METHOD}
+sE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\ManoDeObraService.java (#"
+isFinalfalse"
+declarationStringj<mark class="modifier"> </mark>Optional&lt;ManoDeObra&gt; <mark class="method">buscarPorId</mark>(Long id)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeOptional<ManoDeObra>*buscarPorId2Í
+^com.besisoft.proyectofinal.service.interfaces.ManoDeObraService.buscarPorId(java.lang.Long)!id	PARAMETER}
+sE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\ManoDeObraService.java) (+2†
+java.util.OptionalRETURN_TYPE}
+sE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\ManoDeObraService.java (2√
+,com.besisoft.proyectofinal.entity.ManoDeObraRETURN_TYPE_ARGUMENT}
+sE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\ManoDeObraService.java (ƒ
+^com.besisoft.proyectofinal.service.interfaces.ManoDeObraService.buscarPorId(java.lang.Long)!id	PARAMETER}
+sE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\ManoDeObraService.java) (+"
+typeLong"
+isFinalfalse"
+declarationStringLong id*id2ï
+java.lang.LongTYPE}
+sE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\ManoDeObraService.java$ ((Ÿ
+}com.besisoft.proyectofinal.service.interfaces.ManoDeObraService.crearManoDeObra(com.besisoft.proyectofinal.entity.ManoDeObra)METHOD}
+sE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\ManoDeObraService.java
+ 
+("
+isFinalfalse"Å
+declarationStringl<mark class="modifier"> </mark>ManoDeObra <mark class="method">crearManoDeObra</mark>(ManoDeObra manoDeObra)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+type
+ManoDeObra*crearManoDeObra2ï
+àcom.besisoft.proyectofinal.service.interfaces.ManoDeObraService.crearManoDeObra(com.besisoft.proyectofinal.entity.ManoDeObra)!manoDeObra	PARAMETER}
+sE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\ManoDeObraService.java
+* 
+(42∫
+,com.besisoft.proyectofinal.entity.ManoDeObraRETURN_TYPE}
+sE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\ManoDeObraService.java
+ 
+(©
+àcom.besisoft.proyectofinal.service.interfaces.ManoDeObraService.crearManoDeObra(com.besisoft.proyectofinal.entity.ManoDeObra)!manoDeObra	PARAMETER}
+sE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\ManoDeObraService.java
+* 
+(4"
+type
+ManoDeObra"
+isFinalfalse"*
+declarationStringManoDeObra manoDeObra*
+manoDeObra2≥
+,com.besisoft.proyectofinal.entity.ManoDeObraTYPE}
+sE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\ManoDeObraService.java
+ 
+()˘
+
+ícom.besisoft.proyectofinal.service.interfaces.ManoDeObraService.actualizarManoDeObra(com.besisoft.proyectofinal.entity.ManoDeObra, java.lang.Long)METHOD}
+sE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\ManoDeObraService.java (#"
+isFinalfalse"Ã
+declarationString∂<mark class="modifier"> </mark>ManoDeObra <mark class="method">actualizarManoDeObra</mark>(ManoDeObra manoDeObra<mark class="modifier"><mark class="modifier">,</mark></mark> Long id)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+type
+ManoDeObra*actualizarManoDeObra2™
+ùcom.besisoft.proyectofinal.service.interfaces.ManoDeObraService.actualizarManoDeObra(com.besisoft.proyectofinal.entity.ManoDeObra, java.lang.Long)!manoDeObra	PARAMETER}
+sE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\ManoDeObraService.java/ (92¢
+ïcom.besisoft.proyectofinal.service.interfaces.ManoDeObraService.actualizarManoDeObra(com.besisoft.proyectofinal.entity.ManoDeObra, java.lang.Long)!id	PARAMETER}
+sE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\ManoDeObraService.java? (A2∫
+,com.besisoft.proyectofinal.entity.ManoDeObraRETURN_TYPE}
+sE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\ManoDeObraService.java (æ
+ùcom.besisoft.proyectofinal.service.interfaces.ManoDeObraService.actualizarManoDeObra(com.besisoft.proyectofinal.entity.ManoDeObra, java.lang.Long)!manoDeObra	PARAMETER}
+sE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\ManoDeObraService.java/ (9"
+type
+ManoDeObra"
+isFinalfalse"*
+declarationStringManoDeObra manoDeObra*
+manoDeObra2≥
+,com.besisoft.proyectofinal.entity.ManoDeObraTYPE}
+sE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\ManoDeObraService.java$ (.¸
+ïcom.besisoft.proyectofinal.service.interfaces.ManoDeObraService.actualizarManoDeObra(com.besisoft.proyectofinal.entity.ManoDeObra, java.lang.Long)!id	PARAMETER}
+sE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\ManoDeObraService.java? (A"
+typeLong"
+isFinalfalse"
+declarationStringLong id*id2ï
+java.lang.LongTYPE}
+sE:\Besysoft final\TallerMecanico\src\main\java\com\besisoft\proyectofinal\service\interfaces\ManoDeObraService.java: (>
