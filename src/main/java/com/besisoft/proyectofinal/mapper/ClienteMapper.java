@@ -12,9 +12,14 @@ public class ClienteMapper {
 
     public static ClienteDTO mapToClienteDTO(Cliente cliente){
         ClienteDTO dto=new ClienteDTO();
-        dto.setId(cliente.getId());
+        if(cliente.getId()!=null){
+            dto.setId(cliente.getId());
+        }
         dto.setApellido(cliente.getApellido());
-        dto.setCelular(cliente.getDomicilio().getCelular());
+        if(cliente.getDomicilio().getCelular()!=null){
+            dto.setCelular(cliente.getDomicilio().getCelular());
+        }
+
         dto.setEmail(cliente.getCorreoElectronico());
         dto.setCalle(cliente.getDomicilio().getCalle());
         dto.setDepartamento(cliente.getDomicilio().getDepartamento());

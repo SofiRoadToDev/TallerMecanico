@@ -27,7 +27,7 @@ public class Vehiculo {
 
     private  String patente;
 
-    @ManyToOne
+    @ManyToMany
     private List<Cliente>clientes=new ArrayList<>();
 
 

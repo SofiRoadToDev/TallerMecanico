@@ -62,7 +62,7 @@ public class OrdenDeTrabajoServiceImpl implements OrdenDeTrabajoService {
         }/*No está registrado el vehiculo*/
         else{
             Cliente cliente=ordenTrabajo.getVehiculo().getClientes().get(0);
-            Optional<Cliente> clienteStored=clienteRepository.findByCorreoElectonico(cliente.getCorreoElectronico());
+            Optional<Cliente> clienteStored=clienteRepository.findByCorreoElectronico(cliente.getCorreoElectronico());
             if(clienteStored.isPresent()){/*No vehiculo si cliente*/
                 Vehiculo nuevoVehiculo=vehiculoRepository.save(ordenTrabajo.getVehiculo());
                 clienteStored.get().getVehiculos().add(nuevoVehiculo);

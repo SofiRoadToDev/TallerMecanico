@@ -30,7 +30,7 @@ public class Cliente extends Persona{
    @NotNull(message = "El email es obligatorio")
     private String correoElectronico;
 
-   @OneToMany(mappedBy = "clientes")
+   @ManyToMany(mappedBy = "clientes")
     private List<Vehiculo>vehiculos=new ArrayList<>();
 
 

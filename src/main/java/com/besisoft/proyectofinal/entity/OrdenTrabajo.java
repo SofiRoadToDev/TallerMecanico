@@ -58,10 +58,10 @@ public class OrdenTrabajo {
     @OneToMany(mappedBy = "ordenTrabajo")
     private List<DetalleOrdenTrabajo> detalleOrdenesTrabajo;
 
-    @ManyToOne
+    @ManyToOne(cascade = CascadeType.MERGE)
     private Empleado recepcionista;
 
-    @ManyToOne
+    @ManyToOne(cascade = CascadeType.MERGE)
     private Empleado administrativo;
 
 

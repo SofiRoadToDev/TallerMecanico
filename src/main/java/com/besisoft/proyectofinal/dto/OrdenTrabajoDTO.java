@@ -18,13 +18,13 @@ public class OrdenTrabajoDTO {
 
     private EstadoOrdenTrabajo estado;
 
-    @Temporal(TemporalType.TIMESTAMP)
-    private Date fechaFinReparacion;
 
-    @Temporal(TemporalType.TIMESTAMP)
-    private Date fechaIngreso;
+    private String fechaFinReparacion;
 
-    @Temporal(TemporalType.TIMESTAMP)
+
+    private String fechaIngreso;
+
+
     private Date fechaPago;
 
     private String formaPago;
@@ -43,7 +43,6 @@ public class OrdenTrabajoDTO {
 
     private String mecanicoApellido;
 
-    @OneToMany(mappedBy = "ordenTrabajo")
     private List<DetalleOrdenTrabajo> detalleOrdenesTrabajo;
 
 

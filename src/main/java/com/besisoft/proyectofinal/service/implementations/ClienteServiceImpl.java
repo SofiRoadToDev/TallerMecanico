@@ -18,7 +18,7 @@ public class ClienteServiceImpl implements ClienteService {
     private ClienteRepository clienteRepository;
     @Override
     public Optional<Cliente> obtenerPorEmail(String email) throws ClienteNotFoundException {
-        Optional<Cliente>cliente=this.clienteRepository.findByCorreoElectonico(email);
+        Optional<Cliente>cliente=this.clienteRepository.findByCorreoElectronico(email);
         if(cliente.isPresent()){
             return cliente;
         }else{
@@ -30,7 +30,7 @@ public class ClienteServiceImpl implements ClienteService {
     @Override
     @Transactional
     public Cliente crearCliente(Cliente cliente) throws ClienteAlreadyExistsException {
-        Optional<Cliente>clienteStored=this.clienteRepository.findByCorreoElectonico(cliente.getCorreoElectronico());
+        Optional<Cliente>clienteStored=this.clienteRepository.findByCorreoElectronico(cliente.getCorreoElectronico());
         if(clienteStored.isPresent()){
             throw new ClienteAlreadyExistsException("El cliente que intenta ingresar ya existe, esta su mail registrado",null);
         }else{

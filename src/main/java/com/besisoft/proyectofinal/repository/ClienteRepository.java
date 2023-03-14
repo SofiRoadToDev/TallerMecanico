@@ -7,5 +7,5 @@ import java.util.Optional;
 
 public interface ClienteRepository extends CrudRepository<Cliente,Long> {
 
-    Optional<Cliente> findByCorreoElectonico(String email);
+    Optional<Cliente> findByCorreoElectronico(String email);
 }
