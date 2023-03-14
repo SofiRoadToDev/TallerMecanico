@@ -29,4 +29,9 @@ public class Vehiculo {
 
     @ManyToOne
     private List<Cliente>clientes=new ArrayList<>();
+
+
+    public Vehiculo(String patente) {
+        this.patente = patente;
+    }
 }

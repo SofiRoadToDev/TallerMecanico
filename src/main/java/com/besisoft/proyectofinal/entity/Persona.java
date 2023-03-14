@@ -1,6 +1,7 @@
 package com.besisoft.proyectofinal.entity;
 
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.hibernate.validator.constraints.Length;
 
 import javax.persistence.*;
@@ -8,6 +9,7 @@ import javax.validation.constraints.NotBlank;
 
 @MappedSuperclass
 @Data
+@NoArgsConstructor
 public abstract class Persona {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -25,5 +27,10 @@ public abstract class Persona {
     @Length(max=100,message = "El maximo de caracteres es 100")
     @NotBlank(message = "El nombre es obligatorio")
     private String nombres;
+
+    public Persona(String apellido) {
+        this.apellido = apellido;
+    }
+
 
 }

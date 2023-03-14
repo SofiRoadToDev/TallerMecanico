@@ -15,6 +15,11 @@ public class Empleado extends  Persona{
 
     private String tipoEmpleado;
 
+
+    public Empleado(String tipoEmpleado,String apellido) {
+        super(apellido);
+        this.tipoEmpleado = tipoEmpleado;
+    }
 }
 
 

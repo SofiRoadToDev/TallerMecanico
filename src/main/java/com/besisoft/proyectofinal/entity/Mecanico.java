@@ -9,10 +9,7 @@ import java.util.List;
 
 @Entity
 @Getter
-@Setter
-@NoArgsConstructor
-@AllArgsConstructor
-@Builder
+@Data
 @Table(name = "mecanicos")
 public class Mecanico extends Persona{
 
@@ -21,6 +18,7 @@ public class Mecanico extends Persona{
     private String especialidad;
     @OneToMany(mappedBy = "mecanico")
     private List<ManoDeObra> manoDeObra;
+
 
 
 }
