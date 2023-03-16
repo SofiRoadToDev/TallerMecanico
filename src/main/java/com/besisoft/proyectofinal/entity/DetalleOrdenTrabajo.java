@@ -7,10 +7,9 @@ import javax.validation.constraints.Digits;
 import java.math.BigDecimal;
 
 @Entity
-@Getter
-@Setter
-@NoArgsConstructor
+@Data
 @AllArgsConstructor
+@NoArgsConstructor
 @Builder
 @Table(name = "detalle_ordenes_trabajo")
 public class DetalleOrdenTrabajo {

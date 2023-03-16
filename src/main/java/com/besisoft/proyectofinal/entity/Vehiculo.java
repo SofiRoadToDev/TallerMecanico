@@ -16,7 +16,7 @@ public class Vehiculo {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Length(min = 1950,max=2023)
+
     private Integer anio;
 
     private String color;

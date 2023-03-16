@@ -39,7 +39,7 @@ public class OrdenTrabajo {
     private Date fechaPago;
 
     private String formaPago;
-    @Digits(integer = 17,fraction = 2)
+
     private BigDecimal importeTotal;
 
     private Integer kilometraje;

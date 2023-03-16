@@ -6,6 +6,10 @@ import lombok.Builder;
 import lombok.Data;
 
 import javax.persistence.*;
+import javax.validation.constraints.Digits;
+import javax.validation.constraints.NotNull;
+import java.math.BigDecimal;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -20,7 +24,7 @@ public class OrdenTrabajoDTO {
     private String detalleFallas;
 
 
-    private EstadoOrdenTrabajo estado;
+    private String estado;
 
 
     private String fechaFinReparacion;
@@ -33,7 +37,9 @@ public class OrdenTrabajoDTO {
 
     private String formaPago;
 
-    private double importeTotal;
+
+    @Digits(integer = 17,fraction = 2)
+    private BigDecimal importeTotal;
 
     private Integer kilometraje;
 
@@ -45,9 +51,10 @@ public class OrdenTrabajoDTO {
     private VehiculoDTO vehiculo;
 
 
-    private String mecanicoApellido;
+    private List<DetalleOrdenTrabajoDTO> detalleOrdenesTrabajo=new ArrayList<>();
 
-    private List<DetalleOrdenTrabajoDTO> detalleOrdenesTrabajo;
+    @NotNull(message = "Debe proporcionarse mano de obra con el apellido del mecanico")
+    private List<ManoDeObraDTO>manoDeObra=new ArrayList<>();
 
 
     private String apellidoRecepcionista;

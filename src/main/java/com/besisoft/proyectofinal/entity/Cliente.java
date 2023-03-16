@@ -26,8 +26,8 @@ public class Cliente extends Persona{
 
 
 
-   @Email(message = "Ingrese el email de manera correcta")
-   @NotNull(message = "El email es obligatorio")
+   /*@Email(message = "Ingrese el email de manera correcta")
+   @NotNull(message = "El email es obligatorio")*/
     private String correoElectronico;
 
    @ManyToMany(mappedBy = "clientes")

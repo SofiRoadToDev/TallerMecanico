@@ -19,13 +19,9 @@ public abstract class Persona {
     private  Domicilio domicilio;
 
     @Column(length =80 )
-    @Length(max=100,message = "El maximo de caracteres es 80")
-    @NotBlank(message = "El apellido es obligatorio")
     private String apellido;
 
     @Column(length = 100)
-    @Length(max=100,message = "El maximo de caracteres es 100")
-    @NotBlank(message = "El nombre es obligatorio")
     private String nombres;
 
     public Persona(String apellido) {

@@ -14,6 +14,7 @@ import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
@@ -73,6 +74,10 @@ public class OrdenDeTrabajoServiceImpl implements OrdenDeTrabajoService {
             }else{/*ni vehiculo ni cliente*/
                 Vehiculo nuevoVehiculo=vehiculoRepository.save(ordenTrabajo.getVehiculo());
                 Cliente nuevoCliente=ordenTrabajo.getVehiculo().getClientes().get(0);
+                if(nuevoCliente.getVehiculos()==null){
+                    List<Vehiculo>vehiculoList=new ArrayList<>();
+                    nuevoCliente.setVehiculos(vehiculoList);
+                }
                 nuevoCliente.getVehiculos().add(nuevoVehiculo);
                 clienteRepository.save(nuevoCliente);
                 ordenTrabajoFinal=memoryToBeStored(ordenTrabajo);
@@ -92,7 +97,7 @@ public class OrdenDeTrabajoServiceImpl implements OrdenDeTrabajoService {
         ordenTrabajoFinal.setKilometraje(input.getKilometraje());
         ordenTrabajoFinal.setNivelCombustible(input.getNivelCombustible());
         ordenTrabajoFinal.setEstado(EstadoOrdenTrabajo.CREADA);
-        ordenTrabajoFinal.getManoDeObra().add(input.getManoDeObra().get(0));//asigna mecánico
+        //ordenTrabajoFinal.getManoDeObra().add(input.getManoDeObra().get(0));//asigna mecánico
         return ordenTrabajoFinal;
     }
 

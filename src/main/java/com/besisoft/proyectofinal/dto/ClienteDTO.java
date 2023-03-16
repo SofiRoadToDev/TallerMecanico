@@ -6,6 +6,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NonNull;
+import org.hibernate.validator.constraints.Length;
 
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
@@ -20,13 +21,19 @@ public class ClienteDTO implements Serializable {
 
  private Long id;
 
- @NotBlank
+
+ @Length(max=100,message = "El maximo de caracteres es 80")
+ @NotBlank(message = "El apellido es obligatorio")
  private String apellido;
 
-@NotBlank
+ @Length(max = 15,min=15,message = "Coloque un numero valido, de 15 digitos")
+ private String telefonoLinea;
+ @Length(max=100,message = "El maximo de caracteres es 100")
+ @NotBlank(message = "El nombre es obligatorio")
  private String nombre;
 
-@Email
+ @Email(message = "Ingrese el email de manera correcta")
+ @NotBlank(message = "El email es obligatorio")
  private String email;
 
  private String celular;
@@ -41,6 +48,6 @@ public class ClienteDTO implements Serializable {
 
  private String piso;
 
-/* @JsonIgnore
- private List<VehiculoDTO> vehiculos=new ArrayList<>();*/
+ @JsonIgnore
+ private List<VehiculoPatentesDTO> vehiculos=new ArrayList<>();
 }
