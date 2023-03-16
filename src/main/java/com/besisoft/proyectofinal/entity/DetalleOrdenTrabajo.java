@@ -29,6 +29,6 @@ public class DetalleOrdenTrabajo {
 
     private Integer cantidad;
 
-    @Digits(integer = 17,fraction = 2)
+
     private BigDecimal valorTotal;
 }

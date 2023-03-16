@@ -1,12 +1,17 @@
 package com.besisoft.proyectofinal.dto;
 
 import com.besisoft.proyectofinal.entity.Cliente;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.util.ArrayList;
 import java.util.List;
 
 @Data
+@Builder
+@AllArgsConstructor
 public class VehiculoDTO {
 
     private Long id;
@@ -22,5 +27,5 @@ public class VehiculoDTO {
 
     private String color;
 
-    private List<ClienteDTO> clienteList=new ArrayList();
+    private List<ClienteDTO> clientes=new ArrayList();
 }

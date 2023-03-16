@@ -1,6 +1,8 @@
 package com.besisoft.proyectofinal.dto;
 
 import com.besisoft.proyectofinal.entity.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 
 import javax.persistence.*;
@@ -8,6 +10,8 @@ import java.util.Date;
 import java.util.List;
 
 @Data
+@AllArgsConstructor
+@Builder
 public class OrdenTrabajoDTO {
 
     private Long id;
@@ -38,12 +42,12 @@ public class OrdenTrabajoDTO {
     private  String tipoTarjeta;
 
 
-    private String patenteVehiculo;
+    private VehiculoDTO vehiculo;
 
 
     private String mecanicoApellido;
 
-    private List<DetalleOrdenTrabajo> detalleOrdenesTrabajo;
+    private List<DetalleOrdenTrabajoDTO> detalleOrdenesTrabajo;
 
 
     private String apellidoRecepcionista;

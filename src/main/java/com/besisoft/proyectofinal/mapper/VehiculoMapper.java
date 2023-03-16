@@ -1,23 +1,19 @@
 package com.besisoft.proyectofinal.mapper;
 
+import com.besisoft.proyectofinal.dto.ClienteDTO;
 import com.besisoft.proyectofinal.dto.VehiculoDTO;
+import com.besisoft.proyectofinal.entity.Cliente;
 import com.besisoft.proyectofinal.entity.Vehiculo;
+import org.mapstruct.Mapper;
 
-import java.util.stream.Collectors;
+@Mapper(componentModel = "spring")
+public interface VehiculoMapper {
 
-public class VehiculoMapper {
+    Vehiculo mapToVehiculo(VehiculoDTO vehiculoDTO);
 
-    public static VehiculoDTO mapToDtoVehiculo(Vehiculo vehiculo){
-        VehiculoDTO dto= new VehiculoDTO();
-        if(vehiculo.getId()!=null){
-            dto.setId(vehiculo.getId());
-        }
-        dto.setAnio(vehiculo.getAnio());
-        dto.setModelo(vehiculo.getModelo());
-        dto.setMarca(vehiculo.getMarca());
-        dto.setColor(vehiculo.getColor());
-        dto.setPatente(vehiculo.getPatente());
-        dto.setClienteList(vehiculo.getClientes().stream().map(ClienteMapper::mapToClienteDTO).collect(Collectors.toList()));
-        return dto;
-    }
+    VehiculoDTO mapToVehiculoDTO(Vehiculo vehiculo);
+
+    Cliente mapToCliente(ClienteDTO clienteDTO);
+
+    ClienteDTO mapToClienteDTO(Cliente cliente);
 }

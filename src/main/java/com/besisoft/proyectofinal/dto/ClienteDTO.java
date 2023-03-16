@@ -1,16 +1,22 @@
 package com.besisoft.proyectofinal.dto;
 
 import com.besisoft.proyectofinal.entity.Cliente;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NonNull;
 
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
 @Data
-public class ClienteDTO {
+@AllArgsConstructor
+@Builder
+public class ClienteDTO implements Serializable {
 
  private Long id;
 
@@ -35,5 +41,6 @@ public class ClienteDTO {
 
  private String piso;
 
- private List<String> vehiculos=new ArrayList<>();
+/* @JsonIgnore
+ private List<VehiculoDTO> vehiculos=new ArrayList<>();*/
 }

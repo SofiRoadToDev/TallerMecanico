@@ -20,12 +20,9 @@ public class OrdenTrabajoController {
 
 
     private OrdenDeTrabajoService service;
+    private OrdenTrabajoMapper mapper;
     @PostMapping()
     private ResponseEntity<?> crearOrdenTrabajo(OrdenTrabajoDTO ordenTrabajoDTO){
-        try {
-            return ResponseEntity.ok(service.crearOrdenDeTrabajo(OrdenTrabajoMapper.mapToOrdenTrabajo(ordenTrabajoDTO)));
-        } catch (ParseException e) {
-            throw new RuntimeException(e);
-        }
+            return ResponseEntity.ok(service.crearOrdenDeTrabajo(mapper.mapToOrdenTrabajo(ordenTrabajoDTO)));
     }
 }

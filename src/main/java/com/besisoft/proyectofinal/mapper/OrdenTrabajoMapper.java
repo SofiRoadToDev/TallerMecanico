@@ -1,44 +1,27 @@
 package com.besisoft.proyectofinal.mapper;
 
+
+import com.besisoft.proyectofinal.dto.DetalleOrdenTrabajoDTO;
 import com.besisoft.proyectofinal.dto.OrdenTrabajoDTO;
-import com.besisoft.proyectofinal.entity.Empleado;
+import com.besisoft.proyectofinal.dto.VehiculoDTO;
+import com.besisoft.proyectofinal.entity.DetalleOrdenTrabajo;
 import com.besisoft.proyectofinal.entity.OrdenTrabajo;
 import com.besisoft.proyectofinal.entity.Vehiculo;
+import org.mapstruct.Mapper;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.time.format.DateTimeFormatter;
-
-public class OrdenTrabajoMapper {
+@Mapper(componentModel = "spring")
+public interface OrdenTrabajoMapper {
 
 
+     OrdenTrabajoDTO mapToOrdenTrabajoDTO(OrdenTrabajo ordenTrabajo);
 
-    public static OrdenTrabajo mapToOrdenTrabajo(OrdenTrabajoDTO dto) throws ParseException {
+     OrdenTrabajo mapToOrdenTrabajo(OrdenTrabajoDTO ordenTrabajoDTO);
 
-        SimpleDateFormat format= new SimpleDateFormat("dd/MM/YYYY");
-        OrdenTrabajo orden=new OrdenTrabajo();
-        if(dto.getId()!=null){
-            orden.setId(dto.getId());
-        }
-        if(dto.getPatenteVehiculo()!=null){
-            orden.setVehiculo(new Vehiculo(dto.getPatenteVehiculo()));
-        }
-        if(dto.getApellidoRecepcionista()!=null){
-            orden.setRecepcionista(new Empleado("Recepcionista",dto.getApellidoRecepcionista()));
-        }
-        if(dto.getApellidoAdministrativo()!=null){
-            orden.setAdministrativo(new Empleado("Administrativo",dto.getApellidoAdministrativo()));
-        }
-        orden.setKilometraje(dto.getKilometraje());
-        orden.setNivelCombustible(dto.getNivelCombustible());
-        orden.setDetalleFallas(dto.getDetalleFallas());
-        orden.setFechaIngreso(format.parse(dto.getFechaIngreso()));
-        if(dto.getEstado()!=null){
-            orden.setEstado(dto.getEstado());
-        }
+     VehiculoDTO mapToVehiculoDTO(Vehiculo vehiculo);
 
+     Vehiculo mapToVehiculo(VehiculoDTO vehiculoDTO);
 
-        //orden.setCantidadCuotas(dto.getCantidadCuotas());
-        return orden;
-    }
+     DetalleOrdenTrabajoDTO mapToDetalleOrdenTrabajoDTO(OrdenTrabajo ordenTrabajo);
+
+     DetalleOrdenTrabajo mapToOrdenTrabajo(DetalleOrdenTrabajoDTO dto);
 }
