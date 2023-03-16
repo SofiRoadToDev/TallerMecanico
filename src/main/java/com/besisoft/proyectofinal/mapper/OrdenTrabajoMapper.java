@@ -1,26 +1,26 @@
 package com.besisoft.proyectofinal.mapper;
 
 
-import com.besisoft.proyectofinal.dto.DetalleOrdenTrabajoDTO;
-import com.besisoft.proyectofinal.dto.ManoDeObraDTO;
-import com.besisoft.proyectofinal.dto.OrdenTrabajoDTO;
-import com.besisoft.proyectofinal.dto.VehiculoDTO;
-import com.besisoft.proyectofinal.entity.DetalleOrdenTrabajo;
-import com.besisoft.proyectofinal.entity.ManoDeObra;
-import com.besisoft.proyectofinal.entity.OrdenTrabajo;
-import com.besisoft.proyectofinal.entity.Vehiculo;
+import com.besisoft.proyectofinal.dto.*;
+import com.besisoft.proyectofinal.entity.*;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
+import org.mapstruct.Mappings;
 
 @Mapper(componentModel = "spring")
 public interface OrdenTrabajoMapper {
 
 
-     @Mapping(target = "fechaIngreso",source = "fechaIngreso",dateFormat = "dd/MM/yyyy")
+
+     @Mappings({
+             @Mapping(target = "fechaIngreso",source = "fechaIngreso",dateFormat = "dd/MM/yyyy"),
+             @Mapping(target = "apellidoAdministrativo",source = "administrativo.apellido")})
      OrdenTrabajoDTO mapToOrdenTrabajoDTO(OrdenTrabajo ordenTrabajo);
 
 
-     @Mapping(target = "fechaIngreso",source = "fechaIngreso",dateFormat = "dd/MM/yyyy")
+     @Mappings({
+             @Mapping(target = "fechaIngreso",source = "fechaIngreso",dateFormat = "dd/MM/yyyy"),
+             @Mapping(target = "administrativo.apellido",source = "apellidoAdministrativo")})
      OrdenTrabajo mapToOrdenTrabajo(OrdenTrabajoDTO ordenTrabajoDTO);
 
      VehiculoDTO mapToVehiculoDTO(Vehiculo vehiculo);
@@ -34,4 +34,8 @@ public interface OrdenTrabajoMapper {
      ManoDeObraDTO mapToManoDeOBraDTO(ManoDeObra manoDeObra);
 
      ManoDeObra mapToManoDeObra(ManoDeObraDTO manoDeObraDTO);
+
+     Empleado mapToEmpleado(EmpleadoDTO dto);
+
+     EmpleadoDTO  mapToEmpleadoDTO(Empleado empleado);
 }
