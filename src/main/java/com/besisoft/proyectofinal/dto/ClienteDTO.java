@@ -2,14 +2,12 @@ package com.besisoft.proyectofinal.dto;
 
 import com.besisoft.proyectofinal.entity.Cliente;
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NonNull;
+import lombok.*;
 import org.hibernate.validator.constraints.Length;
 
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
@@ -17,7 +15,8 @@ import java.util.List;
 @Data
 @AllArgsConstructor
 @Builder
-public class ClienteDTO implements Serializable {
+@NoArgsConstructor
+public class ClienteDTO {
 
  private Long id;
 
@@ -34,7 +33,8 @@ public class ClienteDTO implements Serializable {
 
  @Email(message = "Ingrese el email de manera correcta")
  @NotBlank(message = "El email es obligatorio")
- private String email;
+ @NotNull
+ private String correoElectronico;
 
  private String celular;
 
@@ -48,6 +48,6 @@ public class ClienteDTO implements Serializable {
 
  private String piso;
 
- @JsonIgnore
+
  private List<VehiculoPatentesDTO> vehiculos=new ArrayList<>();
 }

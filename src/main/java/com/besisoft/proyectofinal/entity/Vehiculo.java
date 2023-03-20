@@ -1,7 +1,10 @@
 package com.besisoft.proyectofinal.entity;
 
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.hibernate.validator.constraints.Length;
 
 import javax.persistence.*;
@@ -10,6 +13,9 @@ import java.util.List;
 
 @Entity
 @Data
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
 @Table(name = "vehiculos")
 public class Vehiculo {
     @Id
@@ -27,7 +33,7 @@ public class Vehiculo {
 
     private  String patente;
 
-    @ManyToMany
+    @ManyToMany(cascade = CascadeType.PERSIST)
     private List<Cliente>clientes=new ArrayList<>();
 
 

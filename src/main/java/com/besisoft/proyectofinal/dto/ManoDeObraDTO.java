@@ -7,6 +7,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.util.Date;
@@ -14,15 +15,14 @@ import java.util.Date;
 @AllArgsConstructor
 @Builder
 @Data
+@NoArgsConstructor
 public class ManoDeObraDTO {
 
     private Long id;
 
 
-    @JsonFormat(
-            shape = JsonFormat.Shape.STRING,
-            pattern = "hh:mm:ss")
-    private Date duracionHs;
+
+    private Integer duracionHs;
 
 
     private MecanicoDTO mecanico;

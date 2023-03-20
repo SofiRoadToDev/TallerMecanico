@@ -4,20 +4,28 @@ import com.besisoft.proyectofinal.dto.ClienteDTO;
 import com.besisoft.proyectofinal.dto.VehiculoDTO;
 import com.besisoft.proyectofinal.dto.VehiculoPatentesDTO;
 import com.besisoft.proyectofinal.entity.Cliente;
+import com.besisoft.proyectofinal.entity.Persona;
 import com.besisoft.proyectofinal.entity.Vehiculo;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
+import org.mapstruct.SubclassMapping;
 
 import java.util.List;
 
-@Mapper
+@Mapper(componentModel = "spring")
 public interface ClienteMapper {
 
-    @Mapping(source = "email",target = "correoElectronico")
+
+
+
     Cliente mapToCliente(ClienteDTO clienteDTO);
 
-    @Mapping(source = "correoElectronico",target = "email")
+
     ClienteDTO mapToClienteDTO(Cliente cliente);
+
+    List<ClienteDTO>mapToClienteDTOList(List<Cliente>clientes);
+
+    List<Cliente>mapToClienteList(List<ClienteDTO>clienteDTOS);
 
     VehiculoPatentesDTO mapToVehiculoPatenteDTO(Vehiculo vehiculo);
 }

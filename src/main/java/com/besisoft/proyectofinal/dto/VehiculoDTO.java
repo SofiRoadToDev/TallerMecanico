@@ -12,6 +12,7 @@ import java.util.List;
 @Data
 @Builder
 @AllArgsConstructor
+@NoArgsConstructor
 public class VehiculoDTO {
 
     private Long id;
@@ -29,4 +30,5 @@ public class VehiculoDTO {
     private String color;
 
     private List<ClienteDTO> clientes=new ArrayList();
+
 }

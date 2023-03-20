@@ -6,8 +6,7 @@ import javax.persistence.*;
 import java.util.Date;
 
 @Entity
-@Getter
-@Setter
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
@@ -16,8 +15,8 @@ public class ManoDeObra {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Temporal(TemporalType.TIME)
-    private Date duracionHs;
+
+    private Integer duracionHs;
 
     @ManyToOne(cascade = CascadeType.MERGE)
     @JoinColumn(name = "mecanico_id")

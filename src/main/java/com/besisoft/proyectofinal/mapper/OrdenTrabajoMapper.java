@@ -12,15 +12,15 @@ public interface OrdenTrabajoMapper {
 
 
 
-     @Mappings({
-             @Mapping(target = "fechaIngreso",source = "fechaIngreso",dateFormat = "dd/MM/yyyy"),
-             @Mapping(target = "apellidoAdministrativo",source = "administrativo.apellido")})
+
+             @Mapping(target = "fechaIngreso",source = "fechaIngreso",dateFormat = "dd/MM/yyyy")
+
      OrdenTrabajoDTO mapToOrdenTrabajoDTO(OrdenTrabajo ordenTrabajo);
 
 
-     @Mappings({
-             @Mapping(target = "fechaIngreso",source = "fechaIngreso",dateFormat = "dd/MM/yyyy"),
-             @Mapping(target = "administrativo.apellido",source = "apellidoAdministrativo")})
+
+             @Mapping(target = "fechaIngreso",source = "fechaIngreso",dateFormat = "dd/MM/yyyy")
+
      OrdenTrabajo mapToOrdenTrabajo(OrdenTrabajoDTO ordenTrabajoDTO);
 
      VehiculoDTO mapToVehiculoDTO(Vehiculo vehiculo);

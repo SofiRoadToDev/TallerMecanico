@@ -9,6 +9,7 @@ import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
+import java.util.List;
 import java.util.Optional;
 
 @Service
@@ -41,13 +42,18 @@ public class ClienteServiceImpl implements ClienteService {
 
     @Override
     @Transactional
-    public Cliente actualizarCliente(Cliente cliente, Long id) {
-        Optional<Cliente>clienteStored=clienteRepository.findById(id);
+    public Cliente actualizarCliente(Cliente cliente, String email) {
+        Optional<Cliente>clienteStored=clienteRepository.findByCorreoElectronico(email);
         if(clienteStored.isPresent()){
             return this.clienteRepository.save(cliente);
         }else{
-            throw new ClienteNotFoundException(String.format("El cliente id %s no existe",id),null);
+            throw new ClienteNotFoundException(String.format("El cliente con email %s no existe",email),null);
         }
 
+    }
+
+    @Override
+    public List<Cliente> obtenerClientes() {
+        return (List<Cliente>) this.clienteRepository.findAll();
     }
 }

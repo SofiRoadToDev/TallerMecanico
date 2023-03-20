@@ -5,6 +5,7 @@ import com.besisoft.proyectofinal.entity.Repuesto;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import javax.validation.constraints.Digits;
@@ -14,6 +15,7 @@ import java.math.BigDecimal;
 @Data
 @AllArgsConstructor
 @Builder
+@NoArgsConstructor
 public class DetalleOrdenTrabajoDTO {
 
 

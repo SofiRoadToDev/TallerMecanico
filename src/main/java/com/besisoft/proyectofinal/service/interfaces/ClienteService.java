@@ -4,6 +4,7 @@ import com.besisoft.proyectofinal.entity.Cliente;
 import com.besisoft.proyectofinal.exceptions.ClienteAlreadyExistsException;
 import com.besisoft.proyectofinal.exceptions.ClienteNotFoundException;
 
+import java.util.List;
 import java.util.Optional;
 
 public interface ClienteService {
@@ -12,7 +13,9 @@ public interface ClienteService {
 
     Cliente crearCliente(Cliente cliente)throws ClienteAlreadyExistsException;
 
-    Cliente actualizarCliente(Cliente cliente, Long id)throws ClienteNotFoundException;
+    Cliente actualizarCliente(Cliente cliente, String email)throws ClienteNotFoundException;
+
+    List<Cliente> obtenerClientes();
 
 
 }

@@ -1,12 +1,18 @@
 package com.besisoft.proyectofinal.entity;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.Column;
 import javax.persistence.Embeddable;
 
 @Embeddable
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
 public class Domicilio {
 
     private String calle;

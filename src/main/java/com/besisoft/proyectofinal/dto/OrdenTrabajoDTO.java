@@ -1,9 +1,11 @@
 package com.besisoft.proyectofinal.dto;
 
 import com.besisoft.proyectofinal.entity.*;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import javax.validation.constraints.Digits;
@@ -16,6 +18,7 @@ import java.util.List;
 @Data
 @AllArgsConstructor
 @Builder
+@NoArgsConstructor
 public class OrdenTrabajoDTO {
 
     private Long id;
@@ -30,10 +33,12 @@ public class OrdenTrabajoDTO {
     private String fechaFinReparacion;
 
 
+
     private String fechaIngreso;
 
 
     private Date fechaPago;
+
 
     private String formaPago;
 

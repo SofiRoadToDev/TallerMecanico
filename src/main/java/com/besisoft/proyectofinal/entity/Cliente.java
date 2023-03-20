@@ -10,8 +10,7 @@ import javax.validation.constraints.NotNull;
 import java.util.ArrayList;
 import java.util.List;
 
-@Getter
-@Setter
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
@@ -26,8 +25,7 @@ public class Cliente extends Persona{
 
 
 
-   /*@Email(message = "Ingrese el email de manera correcta")
-   @NotNull(message = "El email es obligatorio")*/
+
     private String correoElectronico;
 
    @ManyToMany(mappedBy = "clientes")

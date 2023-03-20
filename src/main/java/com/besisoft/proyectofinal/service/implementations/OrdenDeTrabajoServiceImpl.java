@@ -11,6 +11,7 @@ import com.besisoft.proyectofinal.service.interfaces.ClienteService;
 import com.besisoft.proyectofinal.service.interfaces.OrdenDeTrabajoService;
 import com.besisoft.proyectofinal.service.interfaces.VehiculoService;
 import lombok.AllArgsConstructor;
+import lombok.extern.log4j.Log4j2;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
@@ -20,6 +21,7 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Service
+@Log4j2
 @AllArgsConstructor
 public class OrdenDeTrabajoServiceImpl implements OrdenDeTrabajoService {
 
@@ -37,6 +39,7 @@ public class OrdenDeTrabajoServiceImpl implements OrdenDeTrabajoService {
     @Transactional
 
     public OrdenTrabajo crearOrdenDeTrabajo(OrdenTrabajo ordenTrabajo) {
+        log.info(String.format("Servicio: email q llega %s",ordenTrabajo.getVehiculo().getClientes().get(0).getCorreoElectronico()));
         /*Suponiendo que el frontend presenta una lista con los mecánicos y se envía éste*/
         OrdenTrabajo ordenTrabajoFinal=new OrdenTrabajo();
         Optional<Vehiculo>vehiculoStored=this.vehiculoRepository.findByPatente(ordenTrabajo.getVehiculo().getPatente());
