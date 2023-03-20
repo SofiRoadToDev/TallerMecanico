@@ -29,25 +29,14 @@ public class ClienteDTO {
  private String telefonoLinea;
  @Length(max=100,message = "El maximo de caracteres es 100")
  @NotBlank(message = "El nombre es obligatorio")
- private String nombre;
+ private String nombres;
 
  @Email(message = "Ingrese el email de manera correcta")
  @NotBlank(message = "El email es obligatorio")
  @NotNull
  private String correoElectronico;
 
- private String celular;
-
- private String calle;
-
- private String localidad;
-
- private String departamento;
-
- private String numero;
-
- private String piso;
-
+ private DomicilioDTO domicilio;
 
  private List<VehiculoPatentesDTO> vehiculos=new ArrayList<>();
 }

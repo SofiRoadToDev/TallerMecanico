@@ -16,9 +16,20 @@ import java.util.List;
 @Builder
 @Entity
 @Table(name = "clientes")
-public class Cliente extends Persona{
+public class Cliente {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
 
+    @Embedded
+    private  Domicilio domicilio;
+
+    @Column(length =80 )
+    private String apellido;
+
+    @Column(length = 100)
+    private String nombres;
     @Column(length = 15)
     @Length(max = 15,min=15,message = "Coloque un numero valido, de 15 digitos")
     private String telefonoLinea;
