@@ -1,0 +1,24 @@
+JSON VEHICULO CON CLIENTE Y DOMICILIO ANIDADOS
+
+  {
+        
+           "patente":"123asd",
+           "modelo":"corsa",
+           "marca":"chevrolet",
+           "anio":2010,
+           "color":"rojo",
+           "clientes":[
+               {
+                   "apellido":"Luna",
+                   "nombres":"Silvana",
+                   "telefonoLinea":"123456789369852",
+                   "correoElectronico":"luna@hotmail.com",
+                   "domicilio":{
+                       "calle":"Los Pedos",
+                       "codigoPostal":"4400",
+                       "numero":"123"
+                   }
+               }
+           ]
+
+        }

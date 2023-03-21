@@ -3,6 +3,8 @@ package com.besisoft.proyectofinal.entity;
 import lombok.*;
 
 import javax.persistence.*;
+import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
 import java.util.Date;
 
 @Entity
@@ -16,7 +18,8 @@ public class ManoDeObra {
     private Long id;
 
 
-    private Integer duracionHs;
+    @Column(name = "duracion_hs",columnDefinition = "TIME")
+    private LocalTime duracionHs;
 
     @ManyToOne(cascade = CascadeType.MERGE)
     @JoinColumn(name = "mecanico_id")
@@ -26,4 +29,7 @@ public class ManoDeObra {
     @ManyToOne
     @JoinColumn(name = "orden_trabajo_id")
     private OrdenTrabajo ordenTrabajo;
+
+
+
 }

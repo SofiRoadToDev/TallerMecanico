@@ -4,12 +4,11 @@ import com.besisoft.proyectofinal.entity.Mecanico;
 import com.besisoft.proyectofinal.entity.OrdenTrabajo;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import javax.persistence.*;
+import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
 import java.util.Date;
 import java.util.List;
 
@@ -23,7 +22,9 @@ public class ManoDeObraDTO {
 
 
 
-    private Integer duracionHs;
+    @Getter(AccessLevel.NONE)
+    @Setter(AccessLevel.NONE)
+    private String  duracionHs;
 
 
     private MecanicoDTO mecanico;
@@ -32,4 +33,12 @@ public class ManoDeObraDTO {
 
     private String detalle;
 
+
+    public void setDuracionHs(LocalTime duracionHs) {
+        this.duracionHs = duracionHs.format(DateTimeFormatter.ISO_LOCAL_TIME);
+    }
+
+    public LocalTime getDuracionHs() {
+        return LocalTime.parse(this.duracionHs, DateTimeFormatter.ISO_LOCAL_TIME);
+    }
 }

@@ -1,6 +1,7 @@
 package com.besisoft.proyectofinal.utils;
 
 import com.besisoft.proyectofinal.entity.Cliente;
+import com.besisoft.proyectofinal.entity.Domicilio;
 import com.besisoft.proyectofinal.entity.Vehiculo;
 import com.besisoft.proyectofinal.repository.ClienteRepository;
 import com.besisoft.proyectofinal.repository.VehiculoRepository;
@@ -28,8 +29,19 @@ public class SeederService {
                 .nombres("Alejandro")
                 .apellido("Figueroa")
                 .build();
-        clienteRepository.save(cliente);
 
+
+        Domicilio domicilio=Domicilio.builder()
+                .calle("Los Alamos")
+                .piso("")
+                .codigoPostal("4400")
+                .numero("254")
+                .localidad("San Lorenzo")
+                .departamento("Capital")
+                .celular("3876852369")
+                .build();
+        cliente.setDomicilio(domicilio);
+        clienteRepository.save(cliente);
         Vehiculo vehiculo=Vehiculo.builder()
                 .id(2L)
                 .marca("chevrolet")

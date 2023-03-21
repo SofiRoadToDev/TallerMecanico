@@ -36,7 +36,7 @@ public class Cliente {
 
     private String correoElectronico;
 
-   @ManyToMany(mappedBy = "clientes")
+   @ManyToMany(mappedBy = "clientes",cascade = CascadeType.MERGE)
     private List<Vehiculo>vehiculos=new ArrayList<>();
 
 

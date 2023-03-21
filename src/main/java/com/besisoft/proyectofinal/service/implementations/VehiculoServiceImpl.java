@@ -7,10 +7,12 @@ import com.besisoft.proyectofinal.repository.ClienteRepository;
 import com.besisoft.proyectofinal.repository.VehiculoRepository;
 import com.besisoft.proyectofinal.service.interfaces.VehiculoService;
 import lombok.AllArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
 import javax.swing.text.html.Option;
 import javax.transaction.Transactional;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
@@ -19,6 +21,7 @@ import java.util.stream.Collectors;
 
 @Service
 @AllArgsConstructor
+@Slf4j
 public class VehiculoServiceImpl implements VehiculoService {
 
     private VehiculoRepository vehiculoRepository;
@@ -72,8 +75,15 @@ public class VehiculoServiceImpl implements VehiculoService {
             Optional<Cliente>clienteStored=clienteRepository
                     .findByCorreoElectronico( vehiculo.getClientes().get(0).getCorreoElectronico());
             if(clienteStored.isPresent()){
+                Cliente c=clienteStored.get();
+                List<Cliente>clientesEmpty=new ArrayList<>();
+                log.info(String.format(" id de clienteStored: %s ",c.getId()));
+                vehiculo.setClientes(clientesEmpty);
                 Vehiculo nuevo=this.vehiculoRepository.save(vehiculo);
-                nuevo.getClientes().add(clienteStored.get());
+                log.info(String.format(" id de vehiculo recien crado: %s ",nuevo.getId()));
+                nuevo.getClientes().add(c);
+                c.getVehiculos().add(nuevo);
+                clienteRepository.save(c);
                 v= this.vehiculoRepository.save(nuevo);
             }else{
                 /*vehiculo tiene cascade persist en cliente*/

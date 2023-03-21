@@ -12,7 +12,6 @@ import java.util.List;
 
 @RestController
 @AllArgsConstructor
-@Log4j2
 @RequestMapping("/api/v1/vehiculos")
 public class VehiculoController {
 
