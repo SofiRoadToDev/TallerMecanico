@@ -25,12 +25,8 @@ public class ClienteController {
     private ClienteMapper clienteMapper;
     private ClienteService clienteService;
     @PostMapping()
-    public ResponseEntity<?> crearCliente(@RequestBody @Valid ClienteDTO clienteDTO, BindingResult result){
-        if(result.hasErrors()){
-            Map<String,String>errores=new HashMap<>();
-            result.getFieldErrors().forEach(e->errores.put(e.getField(),e.getDefaultMessage()));
-            return ResponseEntity.badRequest().body(errores);
-        }
+    public ResponseEntity<?> crearCliente(@RequestBody @Valid ClienteDTO clienteDTO){
+
         return new ResponseEntity<>(clienteMapper.mapToClienteDTO
                 (this.clienteService.crearCliente(clienteMapper.mapToCliente(clienteDTO))), HttpStatus.CREATED);
     }
