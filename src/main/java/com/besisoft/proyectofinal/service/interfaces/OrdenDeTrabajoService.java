@@ -10,5 +10,7 @@ public interface OrdenDeTrabajoService {
 
     OrdenTrabajo crearOrdenDeTrabajo(OrdenTrabajo ordenTrabajo);
 
-    OrdenTrabajo actualizarOrdenDeTrabajo(OrdenTrabajo ordenTrabajo);
+    OrdenTrabajo actualizarOrdenDeTrabajo(OrdenTrabajo ordenTrabajo, Long id);
+
+    OrdenTrabajo cerrarOrdenDeTrabajo(Long id);
 }

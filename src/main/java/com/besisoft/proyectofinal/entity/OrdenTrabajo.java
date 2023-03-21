@@ -52,7 +52,7 @@ public class OrdenTrabajo {
     @JoinColumn(name = "vehiculo_id")
     private Vehiculo vehiculo;
 
-    @OneToMany(mappedBy = "ordenTrabajo")
+    @OneToMany(mappedBy = "ordenTrabajo",cascade = CascadeType.PERSIST)
     private List<ManoDeObra> manoDeObra;
 
     @OneToMany(mappedBy = "ordenTrabajo")
