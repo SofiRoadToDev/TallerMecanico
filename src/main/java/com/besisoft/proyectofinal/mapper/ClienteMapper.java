@@ -29,7 +29,7 @@ public interface ClienteMapper {
 
     List<Cliente>mapToClienteList(List<ClienteDTO>clienteDTOS);
 
-    Domicilio mapToDomicilio(DomicilioDTO dto);
+    Domicilio mapToDomicilio(DomicilioDTO domicilioDTO);
     DomicilioDTO mapToDomicilioDTO(Domicilio domicilio);
 
     VehiculoPatentesDTO mapToVehiculoPatenteDTO(Vehiculo vehiculo);

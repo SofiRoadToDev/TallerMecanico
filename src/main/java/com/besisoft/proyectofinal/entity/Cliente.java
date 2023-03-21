@@ -34,9 +34,6 @@ public class Cliente {
     @Length(max = 15,min=15,message = "Coloque un numero valido, de 15 digitos")
     private String telefonoLinea;
 
-
-
-
     private String correoElectronico;
 
    @ManyToMany(mappedBy = "clientes")
