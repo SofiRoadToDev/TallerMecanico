@@ -1,6 +1,7 @@
 package com.besisoft.proyectofinal.controller;
 
 import com.besisoft.proyectofinal.dto.OrdenTrabajoDTO;
+import com.besisoft.proyectofinal.dto.ReparacionDTO;
 import com.besisoft.proyectofinal.entity.OrdenTrabajo;
 import com.besisoft.proyectofinal.mapper.OrdenTrabajoMapper;
 import com.besisoft.proyectofinal.service.interfaces.OrdenDeTrabajoService;
@@ -23,10 +24,10 @@ public class OrdenTrabajoController {
                         (this.ordenDeTrabajoService.crearOrdenDeTrabajo(ordenTrabajoMapper.mapToOrdenTrabajo(ordenTrabajoDTO))));
     }
 
-    @PutMapping("/{id}")
-    public ResponseEntity<?>actualizarOrdenTrabajo(@RequestBody OrdenTrabajoDTO ordenTrabajoDTO, Long id){
-        return ResponseEntity.ok(ordenTrabajoMapper.mapToOrdenTrabajoDTO(this.ordenDeTrabajoService
-                .actualizarOrdenDeTrabajo(ordenTrabajoMapper.mapToOrdenTrabajo(ordenTrabajoDTO),id)));
+    @PutMapping("/reparacion/{id}")
+    public ResponseEntity<?>actualizarOrdenTrabajo(@RequestBody ReparacionDTO reparacionDTO, Long id){
+        return ResponseEntity.ok(ordenTrabajoMapper.mapToReparacionDTO(this.ordenDeTrabajoService
+                .actualizarOrdenDeTrabajo(ordenTrabajoMapper.mapToOrdenTrabajoFromReparacion(reparacionDTO),id)));
     }
 
     @PutMapping("/facturacion/{id}")

@@ -38,4 +38,14 @@ public interface OrdenTrabajoMapper {
      Empleado mapToEmpleado(EmpleadoDTO dto);
 
      EmpleadoDTO  mapToEmpleadoDTO(Empleado empleado);
+
+     ReparacionDTO mapToReparacionDTO(OrdenTrabajo ordenTrabajo);
+
+     OrdenTrabajo mapToOrdenTrabajoFromReparacion(ReparacionDTO reparacionDTO);
+
+     OrdenTrabajo mapToOrdenTrabajoFromFacturacion(FacturacionDTO facturacionDTO);
+
+     FacturacionDTO mapToFacturacionDTO(OrdenTrabajo ordenTrabajo);
+
+
 }

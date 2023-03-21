@@ -11,6 +11,7 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.util.Date;
+import java.util.List;
 
 @AllArgsConstructor
 @Builder
@@ -26,6 +27,8 @@ public class ManoDeObraDTO {
 
 
     private MecanicoDTO mecanico;
+
+
 
     private String detalle;
 
