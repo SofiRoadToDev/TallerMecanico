@@ -26,7 +26,7 @@ public class OrdenTrabajoController {
     }
 
     @PutMapping("/reparacion/{id}")
-    public ResponseEntity<?>actualizarOrdenTrabajo(@RequestBody ReparacionDTO reparacionDTO, Long id){
+    public ResponseEntity<?>cargarDatosDeReparacion(@RequestBody ReparacionDTO reparacionDTO, Long id){
         return ResponseEntity.ok(ordenTrabajoMapper.mapToReparacionDTO(this.ordenDeTrabajoService
                 .actualizarOrdenDeTrabajo(ordenTrabajoMapper.mapToOrdenTrabajoFromReparacion(reparacionDTO),id)));
     }

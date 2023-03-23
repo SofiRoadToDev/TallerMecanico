@@ -31,9 +31,9 @@ public interface OrdenTrabajoMapper {
 
      DetalleOrdenTrabajo mapToOrdenTrabajo(DetalleOrdenTrabajoDTO dto);
 
-     ManoDeObraDTO mapToManoDeOBraDTO(ManoDeObra manoDeObra);
+     ManoDeObraSoloMecanicoDTO mapToManoDeOBraDTO(ManoDeObra manoDeObra);
 
-     ManoDeObra mapToManoDeObra(ManoDeObraDTO manoDeObraDTO);
+     ManoDeObra mapToManoDeObra(ManoDeObraSoloMecanicoDTO manoDeObraDTO);
 
      Empleado mapToEmpleado(EmpleadoDTO dto);
 

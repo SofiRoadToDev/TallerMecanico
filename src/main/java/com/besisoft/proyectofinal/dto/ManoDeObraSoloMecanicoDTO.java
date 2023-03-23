@@ -5,16 +5,11 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Data
 @AllArgsConstructor
+@Data
 @Builder
 @NoArgsConstructor
-public class MecanicoOrdenTrabajoDTO {
+public class ManoDeObraSoloMecanicoDTO {
 
-    private Long id;
-
-    private String apellido;
-
-    private String especialidad;
-
+    private MecanicoOrdenTrabajoDTO mecanico;
 }

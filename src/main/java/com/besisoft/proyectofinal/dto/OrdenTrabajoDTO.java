@@ -30,7 +30,7 @@ public class OrdenTrabajoDTO {
     private String estado;
 
 
-    private String fechaFinReparacion;
+    //private String fechaFinReparacion;
 
 
 
@@ -59,7 +59,7 @@ public class OrdenTrabajoDTO {
    // private List<DetalleOrdenTrabajoDTO> detalleOrdenesTrabajo=new ArrayList<>();
 
     @NotNull(message = "Debe proporcionarse mano de obra con el apellido del mecanico")
-    private List<ManoDeObraDTO>manoDeObra=new ArrayList<>();
+    private List<ManoDeObraSoloMecanicoDTO>manoDeObra=new ArrayList<>();
 
 
     //private String apellidoRecepcionista;

@@ -5,16 +5,17 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Data
+import java.math.BigDecimal;
+
 @AllArgsConstructor
+@Data
 @Builder
 @NoArgsConstructor
-public class MecanicoOrdenTrabajoDTO {
+public class EntregaDTO {
 
     private Long id;
 
-    private String apellido;
+    private BigDecimal importeTotal;
 
-    private String especialidad;
-
+    private String estado;
 }

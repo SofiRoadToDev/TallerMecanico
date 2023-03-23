@@ -1,5 +1,6 @@
 package com.besisoft.proyectofinal.dto;
 
+import com.besisoft.proyectofinal.entity.EstadoOrdenTrabajo;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -24,6 +25,8 @@ public class FacturacionDTO {
     private EmpleadoDTO recepcionista;
 
     private  String tipoTarjeta;
+
+    private String estado;
     private EmpleadoDTO  administrativo;
 
 }

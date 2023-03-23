@@ -44,8 +44,10 @@ public class OrdenDeTrabajoServiceImpl implements OrdenDeTrabajoService {
 
     @Override
     @Transactional
+    //Aqui debo modificar la orden guardadda con los atributos nuevos q lleguen. Actualizar se usa en ca da endpoint y llegan datos parciales.
     public OrdenTrabajo actualizarOrdenDeTrabajo(OrdenTrabajo ordenTrabajo,Long id) throws OrdenDeTrabajoNotFoundException{
         Optional<OrdenTrabajo>orden=this.ordenTrabajoRepository.findById(id);
+
         if(orden.isPresent()){
             return this.ordenTrabajoRepository.save(ordenTrabajo);
         }else{

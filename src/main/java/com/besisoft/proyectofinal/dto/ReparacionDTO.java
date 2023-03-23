@@ -38,7 +38,7 @@ public class ReparacionDTO {
     private String nivelCombustible;
 
 
-    private VehiculoDTO vehiculo;
+    private VehiculoPatentesDTO vehiculo;
 
 
     private List<DetalleOrdenTrabajoDTO> detalleOrdenesTrabajo=new ArrayList<>();
