@@ -53,7 +53,7 @@ public class OrdenTrabajoDTO {
     //private  String tipoTarjeta;
 
 
-    private VehiculoDTO vehiculo;
+    private VehiculoPatentesDTO vehiculo;
 
 
    // private List<DetalleOrdenTrabajoDTO> detalleOrdenesTrabajo=new ArrayList<>();

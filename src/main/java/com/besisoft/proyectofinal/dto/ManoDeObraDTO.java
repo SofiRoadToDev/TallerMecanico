@@ -27,7 +27,7 @@ public class ManoDeObraDTO {
     private String  duracionHs;
 
 
-    private MecanicoDTO mecanico;
+    private MecanicoOrdenTrabajoDTO mecanico;
 
 
 

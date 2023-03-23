@@ -23,9 +23,9 @@ public interface OrdenTrabajoMapper {
 
      OrdenTrabajo mapToOrdenTrabajo(OrdenTrabajoDTO ordenTrabajoDTO);
 
-     VehiculoDTO mapToVehiculoDTO(Vehiculo vehiculo);
+     VehiculoPatentesDTO mapToVehiculoPatentesDTO(Vehiculo vehiculo);
 
-     Vehiculo mapToVehiculo(VehiculoDTO vehiculoDTO);
+     Vehiculo mapToVehiculo(VehiculoPatentesDTO vehiculoDTO);
 
      DetalleOrdenTrabajoDTO mapToDetalleOrdenTrabajoDTO(OrdenTrabajo ordenTrabajo);
 

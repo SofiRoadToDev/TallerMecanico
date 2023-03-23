@@ -1,5 +1,6 @@
 package com.besisoft.proyectofinal.controller;
 
+import com.besisoft.proyectofinal.dto.FacturacionDTO;
 import com.besisoft.proyectofinal.dto.OrdenTrabajoDTO;
 import com.besisoft.proyectofinal.dto.ReparacionDTO;
 import com.besisoft.proyectofinal.entity.OrdenTrabajo;
@@ -31,9 +32,9 @@ public class OrdenTrabajoController {
     }
 
     @PutMapping("/facturacion/{id}")
-    public ResponseEntity<?>crearFactura(@RequestBody OrdenTrabajoDTO ordenTrabajoDTO,Long id){
-        return ResponseEntity.ok(ordenTrabajoMapper.mapToOrdenTrabajoDTO(this.ordenDeTrabajoService
-                .actualizarOrdenDeTrabajo(ordenTrabajoMapper.mapToOrdenTrabajo(ordenTrabajoDTO),id)));
+    public ResponseEntity<?>crearFactura(@RequestBody FacturacionDTO facturacionDTO, Long id){
+        return ResponseEntity.ok(ordenTrabajoMapper.mapToFacturacionDTO(this.ordenDeTrabajoService
+                .actualizarOrdenDeTrabajo(ordenTrabajoMapper.mapToOrdenTrabajoFromFacturacion(facturacionDTO),id)));
     }
 
     @PutMapping("/entrega/{id}")
