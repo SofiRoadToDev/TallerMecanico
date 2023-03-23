@@ -28,18 +28,28 @@ public class OrdenTrabajoController {
     @PutMapping("/reparacion/{id}")
     public ResponseEntity<?>cargarDatosDeReparacion(@RequestBody ReparacionDTO reparacionDTO, Long id){
         return ResponseEntity.ok(ordenTrabajoMapper.mapToReparacionDTO(this.ordenDeTrabajoService
-                .actualizarOrdenDeTrabajo(ordenTrabajoMapper.mapToOrdenTrabajoFromReparacion(reparacionDTO),id)));
+                .iniciarReparacion(ordenTrabajoMapper.mapToOrdenTrabajoFromReparacion(reparacionDTO),id)));
+    }
+
+    @PutMapping("/fin-reparacion/{id}")
+    public ResponseEntity<?>finalizarReparacion(@PathVariable Long id){
+        return ResponseEntity.ok(ordenTrabajoMapper.mapToOrdenTrabajoDTO(this.ordenDeTrabajoService
+                .finalizarReparacion(id)));
     }
 
     @PutMapping("/facturacion/{id}")
     public ResponseEntity<?>crearFactura(@RequestBody FacturacionDTO facturacionDTO, Long id){
         return ResponseEntity.ok(ordenTrabajoMapper.mapToFacturacionDTO(this.ordenDeTrabajoService
-                .actualizarOrdenDeTrabajo(ordenTrabajoMapper.mapToOrdenTrabajoFromFacturacion(facturacionDTO),id)));
+                .facturacion(ordenTrabajoMapper.mapToOrdenTrabajoFromFacturacion(facturacionDTO),id)));
     }
 
+
+
     @PutMapping("/entrega/{id}")
-    public ResponseEntity<?>cerrarOrdenDeTrabajo(@RequestBody OrdenTrabajoDTO ordenTrabajoDTO,Long id){
+    public ResponseEntity<?>cerrarOrdenDeTrabajo(@PathVariable Long id){
         return ResponseEntity.ok(ordenTrabajoMapper.mapToOrdenTrabajoDTO(this.ordenDeTrabajoService
-                .actualizarOrdenDeTrabajo(ordenTrabajoMapper.mapToOrdenTrabajo(ordenTrabajoDTO),id)));
+                .cerrarOrdenDeTrabajo(id)));
     }
+
+
 }

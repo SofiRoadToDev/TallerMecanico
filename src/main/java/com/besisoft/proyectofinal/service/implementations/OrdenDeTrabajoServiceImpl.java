@@ -16,7 +16,9 @@ import lombok.extern.log4j.Log4j2;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
@@ -36,16 +38,32 @@ public class OrdenDeTrabajoServiceImpl implements OrdenDeTrabajoService {
     @Override
     @Transactional
     public OrdenTrabajo crearOrdenDeTrabajo(OrdenTrabajo ordenTrabajo) {
+        ordenTrabajo.setFechaIngreso(new Date());
         return this.ordenTrabajoRepository.save(ordenTrabajo);
     }
-
 
 
 
     @Override
     @Transactional
     //Aqui debo modificar la orden guardadda con los atributos nuevos q lleguen. Actualizar se usa en ca da endpoint y llegan datos parciales.
-    public OrdenTrabajo actualizarOrdenDeTrabajo(OrdenTrabajo ordenTrabajo,Long id) throws OrdenDeTrabajoNotFoundException{
+    public OrdenTrabajo iniciarReparacion(OrdenTrabajo ordenTrabajo,Long id) throws OrdenDeTrabajoNotFoundException{
+        Optional<OrdenTrabajo>orden=this.ordenTrabajoRepository.findById(id);
+        if(orden.isPresent()){
+            orden.get().setManoDeObra(ordenTrabajo.getManoDeObra());
+            orden.get().setEstado(EstadoOrdenTrabajo.EN_REPARACION);
+            orden.get().setDetalleOrdenesTrabajo(ordenTrabajo.getDetalleOrdenesTrabajo());
+            return this.ordenTrabajoRepository.save(ordenTrabajo);
+        }else{
+            throw new OrdenDeTrabajoNotFoundException(String.format("no se encuentra la orden de trabajo id: %s",id),null);
+        }
+
+    }
+
+
+
+    @Override
+    public OrdenTrabajo facturacion(OrdenTrabajo ordenTrabajo, Long id) {
         Optional<OrdenTrabajo>orden=this.ordenTrabajoRepository.findById(id);
 
         if(orden.isPresent()){
@@ -53,7 +71,18 @@ public class OrdenDeTrabajoServiceImpl implements OrdenDeTrabajoService {
         }else{
             throw new OrdenDeTrabajoNotFoundException(String.format("no se encuentra la orden de trabajo id: %s",id),null);
         }
+    }
 
+    @Override
+    public OrdenTrabajo finalizarReparacion( Long id) {
+        Optional<OrdenTrabajo>orden=this.ordenTrabajoRepository.findById(id);
+        if(orden.isPresent()){
+            orden.get().setEstado(EstadoOrdenTrabajo.PARA_FACTURAR);
+            orden.get().setFechaFinReparacion(new Date());
+            return this.ordenTrabajoRepository.save(orden.get());
+        }else{
+            throw new OrdenDeTrabajoNotFoundException(String.format("no se encuentra la orden de trabajo id: %s",id),null);
+        }
     }
 
     @Override

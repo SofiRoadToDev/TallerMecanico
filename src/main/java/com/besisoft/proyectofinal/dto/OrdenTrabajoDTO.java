@@ -34,7 +34,7 @@ public class OrdenTrabajoDTO {
 
 
 
-    private String fechaIngreso;
+    //private String fechaIngreso;
 
 
    // private Date fechaPago;
