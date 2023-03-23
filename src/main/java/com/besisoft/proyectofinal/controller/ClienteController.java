@@ -3,6 +3,7 @@ package com.besisoft.proyectofinal.controller;
 import com.besisoft.proyectofinal.dto.ClienteDTO;
 import com.besisoft.proyectofinal.mapper.ClienteMapper;
 import com.besisoft.proyectofinal.service.interfaces.ClienteService;
+import io.swagger.annotations.Api;
 import lombok.AllArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.http.HttpStatus;
@@ -20,6 +21,7 @@ import java.util.TreeMap;
 @Log4j2
 @RequestMapping("/api/v1/clientes")
 @AllArgsConstructor
+@Api(value = "Operaciones permitidas en Cliente",tags = "Cliente Controller")
 public class ClienteController {
 
     private ClienteMapper clienteMapper;
